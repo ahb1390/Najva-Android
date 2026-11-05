@@ -188,7 +188,7 @@ class PreferencesManager @Inject constructor(
     }
 
     val customAccentColor: Flow<Long> = dataStore.data.map { preferences ->
-        preferences[keyCustomAccent] ?: 0xFFF4B266
+        preferences[keyCustomAccent] ?: 0xFF35D39A
     }
 
     /** dark | light | oled. */
