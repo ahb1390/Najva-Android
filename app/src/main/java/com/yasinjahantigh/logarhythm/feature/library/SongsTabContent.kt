@@ -15,7 +15,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.MusicNote
+import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Shuffle
 import androidx.compose.material3.Button
@@ -141,7 +141,7 @@ fun SongsTabContent(
                                 if (filter == TrackFilter.ALL) R.string.library_empty_title
                                 else R.string.filter_empty_title
                             ),
-                            icon = Icons.Filled.MusicNote,
+                            icon = Icons.Filled.Mic,
                             modifier = Modifier.fillMaxSize()
                         )
                     }
