@@ -1,16 +1,14 @@
 <div align="center">
 
-<img src="docs/icon.svg" width="96" height="96" alt="LogaRhythm" />
+<img src="docs/icon.svg" width="96" height="96" alt="Najva" />
 
-# LogaRhythm
+# Najva
 
 A local music player for Android.<br>
 No account, no subscription, no ads. Your library stays on your phone.
 
-<a href="https://github.com/Yasinjahantigh/LogaRhythm-Android/releases/latest"><img alt="Download APK" src="https://img.shields.io/badge/Download-APK-2ea44f?logo=android&logoColor=white" /></a>
-<a href="https://github.com/Yasinjahantigh/LogaRhythm-Android/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Yasinjahantigh/LogaRhythm-Android/total?label=downloads&color=2ea44f" /></a>
-<a href="https://logarhythm-installs.yasinjahantigh.workers.dev/stats"><img alt="Installs" src="https://img.shields.io/endpoint?url=https%3A%2F%2Flogarhythm-installs.yasinjahantigh.workers.dev%2Fbadge" /></a>
-<a href="https://t.me/LogaRhythmApp"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@LogaRhythmApp-2CA5E0?logo=telegram&logoColor=white" /></a>
+<a href="https://github.com/ahb1390/Najva-Android/releases/latest"><img alt="Download APK" src="https://img.shields.io/badge/Download-APK-2ea44f?logo=android&logoColor=white" /></a>
+<a href="https://github.com/ahb1390/Najva-Android/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Yasinjahantigh/LogaRhythm-Android/total?label=downloads&color=2ea44f" /></a>
 <img alt="Android 8.0+" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white" />
 <img alt="License: Apache 2.0" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" />
 
@@ -27,7 +25,7 @@ English · [فارسی](README.fa.md)
 
 ## About
 
-LogaRhythm plays the music that is already on your phone. Playlists, history, edited tags and lyrics are stored on the device, and your files never leave it. The features that use the network are the ones you start yourself — online lyrics, music download and the optional AI playlist — plus two small background calls: a daily check for a newer release on GitHub, and one anonymous install record on the first launch containing a random install id, the app version, device model and Android version. App updates never send that record again. Neither call includes an account, file names, library data or an advertising id. GitHub also counts APK downloads the same way it counts any other file.
+Najva plays the music that is already on your phone. Playlists, history, edited tags and lyrics are stored on the device, and your files never leave it. The features that use the network are the ones you start yourself — online lyrics, music download and the optional AI playlist — plus two small background calls: a daily check for a newer release on GitHub, and, only when the maintainer configures an install-counter endpoint, one anonymous install record on the first launch. App updates never send that record again. Neither call includes an account, file names, library data or an advertising id. GitHub also counts APK downloads the same way it counts any other file.
 
 ## Features
 
@@ -85,20 +83,20 @@ LogaRhythm plays the music that is already on your phone. Playlists, history, ed
 ## Install
 
 - Android 8.0 or newer. The release page has one APK per CPU; most phones want `arm64-v8a`.
-- Get the APK from [GitHub Releases](https://github.com/Yasinjahantigh/LogaRhythm-Android/releases/latest) or the [Telegram channel](https://t.me/LogaRhythmApp).
+- Get the APK from [GitHub Releases](https://github.com/ahb1390/Najva-Android/releases/latest).
 - After the first install, the app updates itself: it finds the newer release, downloads the matching APK and opens the installer. Android verifies the signature, so updates can only come from the same developer.
 
 ## Build from source
 
 ```bash
-git clone https://github.com/Yasinjahantigh/LogaRhythm-Android.git
+git clone https://github.com/ahb1390/Najva-Android.git
 cd LogaRhythm-Android
 ./gradlew :app:assembleDebug
 ```
 
 - JDK 17+ and the Android SDK (compileSdk 36) are required.
 - Version numbers come from the git tag; fetch tags before building a release.
-- Networks where Google Maven is blocked can opt into mirrors by adding `logarhythm.mirrors=true` to `local.properties`.
+- Networks where Google Maven is blocked can opt into mirrors by adding `najva.mirrors=true` to `local.properties`.
 - Release signing reads `KEYSTORE_PATH`, `KEYSTORE_PASSWORD`, `KEY_ALIAS` and `KEY_PASSWORD` from the environment or Gradle properties.
 
 ## Privacy
@@ -106,7 +104,7 @@ cd LogaRhythm-Android
 - Your music, playlists, history, tags and lyrics never leave the device.
 - Online lyrics, downloads and the AI playlist only run when you start them.
 - The daily update check sends a plain HTTPS request to GitHub with no device information.
-- The first launch sends one anonymous install record (random install id, app version, device model, Android version, CPU ABI) so installs from any mirror can be counted. It is sent once; updates never send it again. Public totals: [stats](https://logarhythm-installs.yasinjahantigh.workers.dev/stats).
+- An anonymous install counter is optional and only runs when the maintainer configures `INSTALL_ENDPOINT`; otherwise no install record is sent.
 - No advertising id, no analytics SDK, no crash reporter.
 
 ## Third-party
@@ -118,4 +116,4 @@ The bundled [Vazirmatn](https://github.com/rastikerdar/vazirmatn) font is licens
 
 Apache License 2.0 — see [LICENSE](LICENSE).
 
-Bugs, ideas and pull requests are welcome: open an issue or message [@LogaRhythmApp](https://t.me/LogaRhythmApp?direct).
+Najva is a community fork of [LogaRhythm](https://github.com/Yasinjahantigh/LogaRhythm-Android). Bugs, ideas and pull requests are welcome through the Issues tab.
