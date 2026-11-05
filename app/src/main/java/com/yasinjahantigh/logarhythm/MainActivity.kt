@@ -107,6 +107,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             val themeMode by preferencesManager.themeMode.collectAsStateWithLifecycle(initialValue = "system")
             val themeStyle by preferencesManager.themeStyle.collectAsStateWithLifecycle(initialValue = "default")
+            val brandPalette by preferencesManager.brandPalette.collectAsStateWithLifecycle(initialValue = "emerald")
             val customAccent by preferencesManager.customAccentColor.collectAsStateWithLifecycle(initialValue = 0xFFF4B266)
             val customBase by preferencesManager.customBase.collectAsStateWithLifecycle(initialValue = "dark")
             val cornerRoundness by preferencesManager.cornerRoundness.collectAsStateWithLifecycle(initialValue = "standard")
@@ -152,6 +153,7 @@ class MainActivity : ComponentActivity() {
             LogaRhythmTheme(
                 themeMode = themeMode,
                 themeStyle = themeStyle,
+                brandPalette = brandPalette,
                 customAccentColor = Color(customAccent),
                 customBase = customBase,
                 cornerRoundness = cornerRoundness,
