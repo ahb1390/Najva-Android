@@ -238,6 +238,14 @@ fun najvaBrandColorScheme(palette: String, isDark: Boolean, oled: Boolean = fals
     }
     val gold = if (isDark) Color(0xFFE5C36A) else Color(0xFF806018)
     val updated = base.copy(
+        background = if (isDark) Color(0xFF050505) else base.background,
+        surface = if (isDark) Color(0xFF050505) else base.surface,
+        surfaceDim = if (isDark) Color(0xFF050505) else base.surfaceDim,
+        surfaceContainerLowest = if (isDark) Color.Black else base.surfaceContainerLowest,
+        surfaceContainerLow = if (isDark) Color(0xFF090909) else base.surfaceContainerLow,
+        surfaceContainer = if (isDark) Color(0xFF101010) else base.surfaceContainer,
+        surfaceContainerHigh = if (isDark) Color(0xFF171717) else base.surfaceContainerHigh,
+        surfaceContainerHighest = if (isDark) Color(0xFF202020) else base.surfaceContainerHighest,
         primary = primary,
         onPrimary = onPrimary,
         primaryContainer = primaryContainer,
