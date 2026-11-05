@@ -84,6 +84,7 @@ fun ThemeScreen(
     viewModel: ThemeViewModel = hiltViewModel()
 ) {
     val themeStyle by viewModel.themeStyle.collectAsStateWithLifecycle()
+    val brandPalette by viewModel.brandPalette.collectAsStateWithLifecycle()
     val themeMode by viewModel.themeMode.collectAsStateWithLifecycle()
     val customAccent by viewModel.customAccent.collectAsStateWithLifecycle()
     val customBase by viewModel.customBase.collectAsStateWithLifecycle()
@@ -160,6 +161,25 @@ fun ThemeScreen(
         ) {
             item {
                 ThemePreviewCard(modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp))
+            }
+
+            item {
+                SectionTitle(stringResource(R.string.theme_brand_palette_title))
+                Row(
+                    modifier = Modifier.padding(horizontal = 16.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    FilterChip(
+                        selected = brandPalette == "emerald",
+                        onClick = { viewModel.setBrandPalette("emerald") },
+                        label = { Text(stringResource(R.string.theme_brand_emerald)) }
+                    )
+                    FilterChip(
+                        selected = brandPalette == "ashura",
+                        onClick = { viewModel.setBrandPalette("ashura") },
+                        label = { Text(stringResource(R.string.theme_brand_ashura)) }
+                    )
+                }
             }
 
             item {
