@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="widget_open">باز کردن LogaRhythm</string>
-    <string name="widget_small_label">کاور LogaRhythm</string>
-    <string name="widget_small_description">کاور آلبوم با کنترل پخش و توقف</string>
-    <string name="widget_strip_label">LogaRhythm جمع‌وجور</string>
-    <string name="widget_strip_description">مشخصات آهنگ و کنترل‌های جمع‌وجور پخش</string>
-    <string name="widget_medium_label">پیشرفت LogaRhythm</string>
-    <string name="widget_medium_description">کاور، پیشرفت پخش و کنترل‌های موسیقی</string>
-    <string name="widget_large_label">LogaRhythm کامل</string>
-    <string name="widget_large_description">کنترل کامل پخش و نمایش آهنگ‌های بعدی</string>
-    <string name="widget_player_label">پخش‌کننده LogaRhythm</string>
-    <string name="widget_player_description">کاور بزرگ و همه کنترل‌های پخش با تم اپ</string>
-    <string name="widget_queue_label">لیست آهنگ‌های LogaRhythm</string>
-    <string name="widget_queue_description">لیست آهنگ‌ها با قابلیت اسکرول و کنترل‌های کامل پخش</string>
-    <string name="widget_no_songs">آهنگی در کتابخانه وجود ندارد</string>
-    <string name="widget_select_to_play">آهنگی را برای پخش انتخاب کنید</string>
+    <string name="widget_open">باز کردن نجوا</string>
+    <string name="widget_small_label">تصویر مداحی نجوا</string>
+    <string name="widget_small_description">تصویر مداحی همراه با کنترل پخش</string>
+    <string name="widget_strip_label">نجوا جمع‌وجور</string>
+    <string name="widget_strip_description">اطلاعات مداحی و کنترل‌های فشردهٔ پخش</string>
+    <string name="widget_medium_label">پیشرفت پخش نجوا</string>
+    <string name="widget_medium_description">تصویر مداحی، روند پخش و کنترل‌ها</string>
+    <string name="widget_large_label">نجوا کامل</string>
+    <string name="widget_large_description">کنترل کامل پخش و نمایش مداحی‌های بعدی</string>
+    <string name="widget_player_label">پخش‌کنندهٔ نجوا</string>
+    <string name="widget_player_description">تصویر بزرگ مداحی و همهٔ کنترل‌های پخش با پوستهٔ برنامه</string>
+    <string name="widget_queue_label">صف پخش نجوا</string>
+    <string name="widget_queue_description">فهرست مداحی‌ها با قابلیت پیمایش و کنترل کامل پخش</string>
+    <string name="widget_no_songs">مداحی‌ای در کتابخانه وجود ندارد</string>
+    <string name="widget_select_to_play">یک مداحی برای پخش انتخاب کنید</string>
 </resources>
