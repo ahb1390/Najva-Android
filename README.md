@@ -25,7 +25,7 @@ English · [فارسی](README.fa.md)
 
 ## About
 
-Najva plays the maddahi and devotional recitations already stored on your phone. Playlists, history, edited tags and lyrics are stored on the device, and your files never leave it. The features that use the network are the ones you start yourself — online lyrics, music download and the optional AI playlist — plus a daily check for a newer release on GitHub and, optionally, one anonymous install record on first launch when the maintainer configures an install-counter endpoint. App updates never send that record again. Neither call includes an account, file names, library data or an advertising id. GitHub also counts APK downloads the same way it counts any other file.
+Najva plays the maddahi and devotional recitations already stored on your phone. Playlists, history, edited audio tags and recitation text are stored on the device, and your files never leave it. The features that use the network are the ones you start yourself — online recitation text, audio downloads and the optional AI playlist — plus a daily check for a newer release on GitHub and, optionally, one anonymous install record on first launch when the maintainer configures an install-counter endpoint. App updates never send that record again. Neither call includes an account, file names, library data or an advertising id. GitHub also counts APK downloads the same way it counts any other file.
 
 ## Features
 
@@ -67,7 +67,7 @@ Najva plays the maddahi and devotional recitations already stored on your phone.
 - Metadata and cover art merged from Deezer, iTunes and MusicBrainz; the selected source's maddah metadata takes priority
 
 ### AI (optional)
-- Describe a mood and get a recitation playlist; regenerate the daily mix while keeping the current songs
+- Describe a mood and get a recitation playlist; regenerate the daily mix while keeping the current recitations
 - Works with Gemini or any OpenAI-compatible endpoint you configure; the key stays on the device
 
 ### Updates and installs
@@ -78,7 +78,7 @@ Najva plays the maddahi and devotional recitations already stored on your phone.
 ### Appearance and data
 - Material 3 with a custom palette; colors can follow the collection artwork, the wallpaper or your own choice
 - Full Persian localization and right-to-left layout
-- Backup and restore playlists, favorites, history and lyrics in one file; M3U import and export
+- Backup and restore playlists, favorites, history and recitation text in one file; M3U import and export
 
 ## Install
 
@@ -102,7 +102,7 @@ cd Najva-Android
 ## Privacy
 
 - Your recitations, playlists, history, audio tags and recitation text never leave the device.
-- Online lyrics, downloads and the AI playlist only run when you start them.
+- Online recitation text, downloads and the AI playlist only run when you start them.
 - The daily update check sends a plain HTTPS request to GitHub with no device information.
 - An anonymous install counter is optional and only runs when the maintainer configures `INSTALL_ENDPOINT`; otherwise no install record is sent.
 - No advertising id, no analytics SDK, no crash reporter.
