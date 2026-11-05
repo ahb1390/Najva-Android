@@ -226,7 +226,7 @@
     <string name="home_recently_added">New in your library</string>
     <string name="daily_mix_play">Play %1$s</string>
     <string name="settings_category_appearance">Appearance</string>
-    <string name="settings_category_library">Maddahi Library & Scanning</string>
+    <string name="settings_category_library">Maddahi Library and Scanning</string>
     <string name="settings_language_save_failed">Could not save the language preference. Please try again.</string>
     <string name="settings_language_title">App language</string>
     <string name="settings_language_system">Follow device language</string>
@@ -299,7 +299,7 @@
     <string name="onboarding_feature_offline_desc">Your recitations stay on your device with no tracking.</string>
     <string name="onboarding_feature_audio_title">High Quality &amp; Equalizer</string>
     <string name="onboarding_feature_audio_desc">Built-in 5-band equalizer, sleep timer, and speed controls.</string>
-    <string name="onboarding_feature_lyrics_title">Synced Text & Daily Selections</string>
+    <string name="onboarding_feature_lyrics_title">Synced Text and Daily Selections</string>
     <string name="onboarding_feature_lyrics_desc">Enjoy synced recitation text and daily selections tailored to your collection.</string>
     <string name="onboarding_feature_clean_title">Organized Maddahi Library</string>
     <string name="onboarding_feature_clean_desc">Short audio files and voice messages are filtered automatically. You can change this in Settings.</string>
@@ -352,7 +352,7 @@
     <string name="lyrics_manual_dialog_placeholder">Type recitation text here…</string>
     <string name="lyrics_edit_action">Edit recitation text</string>
     <string name="save_lyrics">Save recitation text</string>
-    <string name="home_mixes_title">Najva Selections & Moods</string>
+    <string name="home_mixes_title">Najva Selections and Moods</string>
     <string name="mood_late_night_chill">Late-night calm</string>
     <string name="mood_deep_focus">Deep focus</string>
     <string name="mood_energy_boost">Energy boost</string>
@@ -785,7 +785,7 @@
     <string name="tools_ai_configure_btn">Open AI Settings</string>
     <string name="tools_ai_scanning">AI is analyzing and standardizing tags…</string>
     <string name="tools_ai_scan_btn">Scan with AI</string>
-    <string name="tools_artist_organizer_banner_title">Smart Maddah & Information Organizer</string>
+    <string name="tools_artist_organizer_banner_title">Smart Maddah and Information Organizer</string>
     <string name="tools_artist_organizer_banner_desc">Clean and standardize maddah names and recitation titles using AI or patterns</string>
     <string name="tools_finding_fixes">Looking for messy names…</string>
     <string name="tools_no_fixes">No cleanup suggestions</string>
