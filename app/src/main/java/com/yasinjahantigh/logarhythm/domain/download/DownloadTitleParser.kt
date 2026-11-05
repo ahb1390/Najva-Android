@@ -46,6 +46,6 @@ object DownloadTitleParser {
             .replace(whitespace, " ")
             .trim(' ', '.')
             .take(120)
-        return cleaned.ifBlank { "track" }
+        return cleaned.ifBlank { "maddahi" }
     }
 }
