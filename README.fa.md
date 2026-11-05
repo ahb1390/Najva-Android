@@ -1,16 +1,14 @@
 <div align="center">
 
-<img src="docs/icon.svg" width="96" height="96" alt="LogaRhythm" />
+<img src="docs/icon.svg" width="96" height="96" alt="Najva" />
 
-# LogaRhythm
+# نجوا (Najva)
 
 پخش‌کنندهٔ موسیقی آفلاین برای اندروید<br>
 بدون حساب کاربری، بدون اشتراک و بدون تبلیغ؛ کتابخانهٔ شما روی گوشی خودتان می‌ماند
 
-<a href="https://github.com/Yasinjahantigh/LogaRhythm-Android/releases/latest"><img alt="Download APK" src="https://img.shields.io/badge/Download-APK-2ea44f?logo=android&logoColor=white" /></a>
-<a href="https://github.com/Yasinjahantigh/LogaRhythm-Android/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Yasinjahantigh/LogaRhythm-Android/total?label=downloads&color=2ea44f" /></a>
-<a href="https://logarhythm-installs.yasinjahantigh.workers.dev/stats"><img alt="Installs" src="https://img.shields.io/endpoint?url=https%3A%2F%2Flogarhythm-installs.yasinjahantigh.workers.dev%2Fbadge" /></a>
-<a href="https://t.me/LogaRhythmApp"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@LogaRhythmApp-2CA5E0?logo=telegram&logoColor=white" /></a>
+<a href="https://github.com/ahb1390/Najva-Android/releases/latest"><img alt="Download APK" src="https://img.shields.io/badge/Download-APK-2ea44f?logo=android&logoColor=white" /></a>
+<a href="https://github.com/ahb1390/Najva-Android/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Yasinjahantigh/LogaRhythm-Android/total?label=downloads&color=2ea44f" /></a>
 <img alt="Android 8.0+" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white" />
 <img alt="License: Apache 2.0" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" />
 
@@ -29,7 +27,7 @@
 
 ## درباره
 
-LogaRhythm موسیقی‌ای را پخش می‌کند که از قبل روی گوشی شما وجود دارد. لیست‌های پخش، تاریخچه، تگ‌های ویرایش‌شده و متن ترانه‌ها روی خود دستگاه ذخیره می‌شوند و فایل‌های شما جایی نمی‌روند. بخش‌هایی که از اینترنت استفاده می‌کنند همان‌هایی هستند که خودتان اجرا می‌کنید — دریافت آنلاین متن ترانه، دانلود موسیقی و لیست پخش هوش مصنوعی — به‌علاوهٔ دو درخواست کوچک پس‌زمینه: بررسی روزانهٔ نسخهٔ تازه در گیت‌هاب، و یک رکورد ناشناس نصب در اولین اجرا شامل شناسهٔ تصادفی نصب، نسخهٔ برنامه، مدل دستگاه و نسخهٔ اندروید. بروزرسانی برنامه دیگر این رکورد را نمی‌فرستد. هیچ‌کدام حساب کاربری، نام فایل، اطلاعات کتابخانه یا شناسهٔ تبلیغاتی همراه ندارند. گیت‌هاب هم تعداد دانلود APK را مثل هر فایل دیگری می‌شمارد.
+نجوا موسیقی‌ای را پخش می‌کند که از قبل روی گوشی شما وجود دارد. لیست‌های پخش، تاریخچه، تگ‌های ویرایش‌شده و متن ترانه‌ها روی خود دستگاه ذخیره می‌شوند و فایل‌های شما جایی نمی‌روند. بخش‌هایی که از اینترنت استفاده می‌کنند همان‌هایی هستند که خودتان اجرا می‌کنید — دریافت آنلاین متن ترانه، دانلود موسیقی و لیست پخش هوش مصنوعی — به‌علاوهٔ بررسی دوره‌ای نسخهٔ تازه در گیت‌هاب؛ شمارندهٔ نصب ناشناس نیز اختیاری است و فقط در صورت پیکربندی آدرس آن توسط نگه‌دارنده فعال می‌شود. بروزرسانی برنامه دیگر این رکورد را نمی‌فرستد. هیچ‌کدام حساب کاربری، نام فایل، اطلاعات کتابخانه یا شناسهٔ تبلیغاتی همراه ندارند. گیت‌هاب هم تعداد دانلود APK را مثل هر فایل دیگری می‌شمارد.
 
 ## امکانات
 
@@ -87,20 +85,20 @@ LogaRhythm موسیقی‌ای را پخش می‌کند که از قبل روی
 ## نصب
 
 - اندروید 8.0 به بالا. در صفحهٔ انتشار برای هر پردازنده یک APK هست؛ بیشتر گوشی‌ها `arm64-v8a` می‌خواهند.
-- APK را از [گیت‌هاب](https://github.com/Yasinjahantigh/LogaRhythm-Android/releases/latest) یا [کانال تلگرام](https://t.me/LogaRhythmApp) بگیرید.
+- APK را از [گیت‌هاب](https://github.com/ahb1390/Najva-Android/releases/latest) بگیرید.
 - پس از اولین نصب، برنامه خودش را بروزرسانی می‌کند: نسخهٔ تازه را پیدا می‌کند، APK مناسب را دانلود می‌کند و نصب‌کننده را باز می‌کند. اندروید امضا را بررسی می‌کند، پس بروزرسانی فقط از همین توسعه‌دهنده ممکن است.
 
 ## ساخت از سورس
 
 ```bash
-git clone https://github.com/Yasinjahantigh/LogaRhythm-Android.git
+git clone https://github.com/ahb1390/Najva-Android.git
 cd LogaRhythm-Android
 ./gradlew :app:assembleDebug
 ```
 
 - JDK 17+ و Android SDK (compileSdk 36) لازم است.
 - شمارهٔ نسخه از تگ گیت می‌آید؛ پیش از بیلد ریلیز، تگ‌ها را fetch کنید.
-- شبکه‌هایی که Google Maven در آن‌ها بسته است می‌توانند با افزودن `logarhythm.mirrors=true` به `local.properties` از mirror استفاده کنند.
+- شبکه‌هایی که Google Maven در آن‌ها بسته است می‌توانند با افزودن `najva.mirrors=true` به `local.properties` از mirror استفاده کنند.
 - امضای ریلیز متغیرهای `KEYSTORE_PATH`، `KEYSTORE_PASSWORD`، `KEY_ALIAS` و `KEY_PASSWORD` را از محیط یا Gradle properties می‌خواند.
 
 ## حریم خصوصی
@@ -108,7 +106,7 @@ cd LogaRhythm-Android
 - موسیقی، لیست‌های پخش، تاریخچه، تگ‌ها و متن ترانه‌های شما هرگز از دستگاه بیرون نمی‌روند.
 - متن ترانهٔ آنلاین، دانلود و لیست پخش هوش مصنوعی فقط وقتی اجرا می‌شوند که خودتان شروعشان کنید.
 - بررسی روزانهٔ بروزرسانی یک درخواست HTTPS معمولی به گیت‌هاب است، بدون هیچ اطلاعات دستگاه.
-- اولین اجرا یک رکورد ناشناس نصب می‌فرستد (شناسهٔ تصادفی نصب، نسخهٔ برنامه، مدل دستگاه، نسخهٔ اندروید و معماری پردازنده) تا نصب‌ها از هر منبعی شمرده شوند. این رکورد یک بار فرستاده می‌شود و بروزرسانی‌ها دوباره آن را نمی‌فرستند. آمار کلی: [stats](https://logarhythm-installs.yasinjahantigh.workers.dev/stats).
+- شمارندهٔ ناشناس نصب اختیاری است و فقط در صورت تنظیم `INSTALL_ENDPOINT` توسط نگه‌دارنده فعال می‌شود؛ در غیر این صورت هیچ رکورد نصبی ارسال نمی‌شود.
 - بدون شناسهٔ تبلیغاتی، بدون SDK تحلیل و بدون گزارش‌دهندهٔ کرش.
 
 ## اجزای ثالث
@@ -120,6 +118,6 @@ cd LogaRhythm-Android
 
 Apache License 2.0 — [LICENSE](LICENSE).
 
-باگ، ایده و پول‌ریکوئست خوش‌آمد است: یک issue باز کنید یا به [@LogaRhythmApp](https://t.me/LogaRhythmApp?direct) پیام بدهید.
+نجوا فورکی جامعه‌محور از [LogaRhythm](https://github.com/Yasinjahantigh/LogaRhythm-Android) است. برای گزارش باگ و پیشنهادها از بخش Issues مخزن استفاده کنید.
 
 </div>
