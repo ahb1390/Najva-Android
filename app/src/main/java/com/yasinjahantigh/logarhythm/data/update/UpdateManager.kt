@@ -41,9 +41,9 @@ class UpdateManager @Inject constructor(
 
     private companion object {
         const val API_URL =
-            "https://api.github.com/repos/Yasinjahantigh/LogaRhythm-Android/releases/latest"
+            "https://api.github.com/repos/ahb1390/Najva-Android/releases/latest"
         const val ALL_RELEASES_URL =
-            "https://api.github.com/repos/Yasinjahantigh/LogaRhythm-Android/releases?per_page=100"
+            "https://api.github.com/repos/ahb1390/Najva-Android/releases?per_page=100"
         const val PREFS = "update_prefs"
         const val KEY_SKIPPED_VERSION = "skipped_version"
         const val KEY_LAST_AUTO_CHECK = "last_auto_check"
