@@ -24,18 +24,18 @@
     <string name="library_scanning">Scanning library…</string>
     <string name="library_scan_failed">Couldn’t refresh your maddahi collection. Your saved library was kept; try again.</string>
     <string name="library_track_count">%1$d recitations</string>
-    <string name="cd_artwork">Album artwork for %1$s</string>
-    <string name="cd_rescan">Rescan music library</string>
+    <string name="cd_artwork">Recitation artwork for %1$s</string>
+    <string name="cd_rescan">Rescan maddahi library</string>
     <string name="cd_permission_icon">Audio permission icon</string>
 
     <!-- Playback -->
     <string name="cd_play">Play</string>
     <string name="cd_pause">Pause</string>
-    <string name="cd_skip_next">Next track</string>
-    <string name="cd_skip_prev">Previous track</string>
+    <string name="cd_skip_next">Next recitation</string>
+    <string name="cd_skip_prev">Previous recitation</string>
     <string name="cd_shuffle">Shuffle</string>
     <string name="cd_repeat">Repeat</string>
-    <string name="cd_repeat_one">Repeat current track</string>
+    <string name="cd_repeat_one">Repeat current recitation</string>
     <string name="cd_collapse_player">Collapse player</string>
     <string name="cd_seek_bar">Playback progress slider</string>
     <string name="unknown_title">Unknown title</string>
@@ -66,7 +66,7 @@
     <string name="cd_back">Navigate back</string>
     <string name="empty_album_tracks">No recitations found in this collection</string>
     <string name="empty_artist_tracks">No recitations found by this maddah</string>
-    <string name="empty_folder_tracks">No tracks found in this folder</string>
+    <string name="empty_folder_tracks">No recitations found in this folder</string>
     <string name="empty_albums">No collections found</string>
     <string name="empty_artists">No maddah found</string>
     <string name="empty_folders">No folders found</string>
@@ -93,7 +93,7 @@
     <string name="playing_next">Will play next</string>
     <string name="added_to_playlist">Added to %1$s</string>
     <string name="removed_from_playlist">Removed from playlist</string>
-    <string name="cd_song_menu">Song options for %1$s</string>
+    <string name="cd_song_menu">Recitation options for %1$s</string>
     <string name="selection_count">%1$d selected</string>
     <string name="selection_select_all">Select all</string>
     <string name="selection_unselect_all">Unselect all</string>
@@ -102,15 +102,15 @@
     <string name="selection_favorite">Favorite</string>
     <string name="selection_share">Share</string>
     <string name="selection_delete">Delete</string>
-    <string name="selection_deleted">%1$d songs deleted</string>
-    <string name="selection_delete_confirm_title">Delete songs</string>
-    <string name="selection_delete_confirm_msg">Are you sure you want to delete %1$d selected songs from your device?</string>
-    <string name="selection_playing_next">%1$d songs will play next</string>
-    <string name="selection_added_to_queue">%1$d songs added to queue</string>
-    <string name="selection_added_to_favorites">%1$d songs added to favorites</string>
-    <string name="selection_hidden">%1$d songs hidden</string>
-    <string name="selection_added_to_playlist">%1$d songs added to %2$s</string>
-    <string name="selection_removed_from_playlist">%1$d songs removed from playlist</string>
+    <string name="selection_deleted">%1$d recitations deleted</string>
+    <string name="selection_delete_confirm_title">Delete recitations</string>
+    <string name="selection_delete_confirm_msg">Are you sure you want to delete %1$d selected recitations from your device?</string>
+    <string name="selection_playing_next">%1$d recitations will play next</string>
+    <string name="selection_added_to_queue">%1$d recitations added to queue</string>
+    <string name="selection_added_to_favorites">%1$d recitations added to favorites</string>
+    <string name="selection_hidden">%1$d recitations hidden</string>
+    <string name="selection_added_to_playlist">%1$d recitations added to %2$s</string>
+    <string name="selection_removed_from_playlist">%1$d recitations removed from playlist</string>
     <string name="playlist_favorites">Favorites</string>
     <string name="playlist_create">New Playlist</string>
     <string name="playlist_name_hint">Playlist name</string>
@@ -122,7 +122,7 @@
     <string name="btn_rename">Rename</string>
     <string name="btn_delete">Delete</string>
     <string name="btn_cancel">Cancel</string>
-    <string name="empty_playlist_tracks">No songs in this playlist</string>
+    <string name="empty_playlist_tracks">No recitations in this playlist</string>
     <string name="playlist_track_count">%1$d recitations</string>
     <string name="cd_favorite">Add to favorites</string>
     <string name="cd_unfavorite">Remove from favorites</string>
@@ -136,12 +136,12 @@
     <string name="stats_total_time">Total Listening Time</string>
     <string name="stats_history">History</string>
     <string name="stats_history_empty_title">No playback history yet</string>
-    <string name="stats_history_empty_desc">Songs you listen to will appear here in chronological order.</string>
-    <string name="stats_top_tracks">Top Tracks</string>
+    <string name="stats_history_empty_desc">Recitations you listen to will appear here in chronological order.</string>
+    <string name="stats_top_tracks">Top Recitations</string>
     <string name="stats_top_artists">Top Maddah</string>
     <string name="stats_top_albums">Top Collections</string>
     <string name="stats_empty_title">No listening data yet</string>
-    <string name="stats_empty_desc">Play your favorite songs to see listening statistics and rankings.</string>
+    <string name="stats_empty_desc">Play your favorite recitations to see listening statistics and rankings.</string>
     <string name="stats_play_count">%1$d plays</string>
     <string name="home_recently_played">Recently Played</string>
     <string name="home_browse_library">Browse Library</string>
@@ -189,14 +189,14 @@
 
     <!-- Sleep timer, equalizer and playback speed -->
     <string name="sleep_timer_title">Sleep Timer</string>
-    <string name="sleep_timer_end_of_track">End of current track</string>
+    <string name="sleep_timer_end_of_track">End of current recitation</string>
     <string name="sleep_timer_active">Active: %1$s remaining</string>
     <string name="sleep_timer_cancel">Cancel Timer</string>
     <string name="sleep_timer_tab_minutes">Minutes</string>
-    <string name="sleep_timer_tab_tracks">Tracks</string>
-    <string name="sleep_timer_tracks_count">%1$d tracks</string>
+    <string name="sleep_timer_tab_tracks">Recitations</string>
+    <string name="sleep_timer_tracks_count">%1$d recitations</string>
     <string name="sleep_timer_one_track">1 recitation (End of current recitation)</string>
-    <string name="sleep_timer_tracks_remaining">%1$d tracks remaining</string>
+    <string name="sleep_timer_tracks_remaining">%1$d recitations remaining</string>
     <string name="sleep_timer_start">Set Timer</string>
     <string name="sleep_timer_minutes_count">%1$d minutes</string>
 
@@ -222,7 +222,7 @@
     <string name="home_daily_mixes">Daily selections</string>
     <string name="home_shuffle_all_action">Shuffle all</string>
     <string name="home_session_minutes">%1$d min</string>
-    <string name="home_session_unavailable">Couldn\'t build a session from playable tracks.</string>
+    <string name="home_session_unavailable">Couldn’t build a session from playable recitations.</string>
     <string name="home_recently_added">Recently added</string>
     <string name="daily_mix_play">Play %1$s</string>
     <string name="settings_category_appearance">Appearance</string>
@@ -309,10 +309,10 @@
     <!-- Genres, sorting and player controls -->
     <string name="tab_genres">Genres</string>
     <string name="empty_genres">No genres found</string>
-    <string name="empty_genre_tracks">No tracks found in this genre</string>
+    <string name="empty_genre_tracks">No recitations found in this category</string>
     <string name="genre_track_count">%1$d recitations</string>
     <string name="sort_by_title">Sort By</string>
-    <string name="sort_title">Title</string>
+    <string name="sort_title">Recitation Title</string>
     <string name="sort_artist">Maddah</string>
     <string name="sort_album">Collection</string>
     <string name="sort_date_added">Date Added</string>
@@ -334,7 +334,7 @@
     <string name="filter_favorites">Favorites</string>
     <string name="filter_downloaded">Downloaded</string>
     <string name="filter_recently_added">Recently Added</string>
-    <string name="filter_empty_title">No songs in this filter</string>
+    <string name="filter_empty_title">No recitations in this filter</string>
     <string name="cd_rewind_10">Rewind 10 seconds</string>
     <string name="cd_forward_10">Forward 10 seconds</string>
     <string name="player_style_vinyl">Vinyl</string>
@@ -396,7 +396,7 @@
     <string name="player_menu_start_radio">Start radio from this song</string>
     <string name="player_radio_started">Autoplay started with %1$d similar recitations. Your previous queue was replaced.</string>
     <string name="player_radio_empty">There are not enough similar recitations for autoplay yet.</string>
-    <string name="search_no_results_hint">Try a shorter title, artist name, or album.</string>
+    <string name="search_no_results_hint">Try a shorter title, maddah name, or collection.</string>
     <string name="search_clear_query_action">Clear search</string>
     <string name="search_album_metadata">%1$s • %2$d songs</string>
     <string name="home_greeting_morning">Good morning</string>
@@ -408,15 +408,15 @@
     <string name="home_right_now_afternoon">Your afternoon</string>
     <string name="home_right_now_evening">Your evening</string>
     <string name="home_right_now_night">Your night</string>
-    <string name="home_right_now_habit">Songs you reach for at this hour</string>
+    <string name="home_right_now_habit">Recitations you reach for at this hour</string>
     <string name="home_right_now_mood">A gentle start while LogaRhythm learns your rhythm</string>
     <string name="home_right_now_play">Play</string>
     <string name="home_on_repeat">On repeat</string>
     <string name="home_because_played">Because you played %1$s</string>
     <string name="action_edit_track_info">Edit Song Details</string>
-    <string name="edit_track_title">Edit Track Info</string>
-    <string name="edit_track_subtitle">Changes will be saved directly into the audio file tags (ID3) and system library.</string>
-    <string name="edit_track_field_title">Title</string>
+    <string name="edit_track_title">Edit Recitation Details</string>
+    <string name="edit_track_subtitle">Changes are saved directly into the audio file tags (ID3) and system library.</string>
+    <string name="edit_track_field_title">Recitation title</string>
     <string name="edit_track_field_artist">Maddah</string>
     <string name="edit_track_field_album">Collection name</string>
     <string name="edit_track_field_genre">Genre</string>
@@ -444,13 +444,13 @@
     <string name="tag_editor_field_disc">Disc number</string>
     <string name="tag_editor_field_composer">Composer</string>
     <string name="tag_editor_saved">Tags saved</string>
-    <string name="tag_editor_not_local">This song is not a local file and cannot be edited.</string>
+    <string name="tag_editor_not_local">This recitation is not a local file and cannot be edited.</string>
     <string name="tag_editor_error_unsupported">This file format cannot store all of these tags.</string>
     <string name="tag_editor_error_denied">Storage access was denied, so nothing was changed.</string>
     <string name="tag_editor_error_no_space">There is not enough free space to safely rewrite the file.</string>
     <string name="tag_editor_error_failed">The file could not be updated. Your original audio was restored.</string>
     <string name="btn_save">Save</string>
-    <string name="track_updated_toast">Song details updated</string>
+    <string name="track_updated_toast">Recitation details updated</string>
     <string name="lyrics_search_custom_btn">Search by Name</string>
     <string name="lyrics_custom_query_hint">Recitation title</string>
     <string name="lyrics_custom_artist_hint">Maddah name (optional)</string>
