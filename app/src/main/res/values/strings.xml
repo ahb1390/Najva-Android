@@ -382,7 +382,7 @@
     <string name="detail_artist">Maddah</string>
     <string name="detail_album">Collection</string>
     <string name="detail_duration">Duration</string>
-    <string name="detail_file_path">File Path</string>
+    <string name="detail_file_path">File name</string>
     <string name="detail_file_size">File Size</string>
     <string name="detail_source">Source</string>
     <string name="action_share_song">Share Recitation</string>
