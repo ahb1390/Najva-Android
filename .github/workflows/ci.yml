@@ -39,10 +39,53 @@ jobs:
       - name: Run Lint
         run: ./gradlew :app:lintDebug --rerun-tasks
 
-      - name: Upload Debug APK
-        if: always()
+      - name: Verify APK archives and create checksums
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          apks=(app/build/outputs/apk/debug/*.apk)
+          if (( ${#apks[@]} == 0 )); then
+            echo "No debug APKs were produced." >&2
+            exit 1
+          fi
+          mkdir -p artifact
+          : > artifact/SHA256SUMS.txt
+          for apk in "${apks[@]}"; do
+            echo "Checking APK archive: $apk"
+            unzip -t "$apk"
+            cp "$apk" artifact/
+            (cd artifact && sha256sum "$(basename "$apk")") >> artifact/SHA256SUMS.txt
+          done
+          cat artifact/SHA256SUMS.txt
+
+      - name: Upload Debug APKs without recompression
         uses: actions/upload-artifact@v4
         with:
           name: debug-apk
-          path: app/build/outputs/apk/debug/*.apk
-          if-no-files-found: warn
+          path: artifact/*
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 14
+
+      - name: Download uploaded artifact for round-trip verification
+        uses: actions/download-artifact@v4
+        with:
+          name: debug-apk
+          path: artifact-roundtrip
+
+      - name: Verify downloaded artifact integrity
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd artifact-roundtrip
+          sha256sum --check SHA256SUMS.txt
+          shopt -s nullglob
+          apks=(*.apk)
+          if (( ${#apks[@]} == 0 )); then
+            echo "Downloaded artifact contains no APK files." >&2
+            exit 1
+          fi
+          for apk in "${apks[@]}"; do
+            unzip -t "$apk"
+          done
