@@ -492,7 +492,7 @@
     <string name="queue_up_next">Up next</string>
     <string name="lyrics_offset_action">Adjust recitation-text timing</string>
     <string name="lyrics_offset_title">Recitation-text timing</string>
-    <string name="lyrics_offset_hint">Use this if the text runs ahead of or behind the maddah's delivery. Saved for this recitation only.</string>
+    <string name="lyrics_offset_hint">Use this if the text runs ahead of or behind the maddah\'s delivery. Saved for this recitation only.</string>
     <string name="lyrics_offset_reset">Reset</string>
     <string name="lyrics_offset_earlier">Earlier +0.5 s</string>
     <string name="lyrics_offset_later">Later −0.5 s</string>
@@ -706,7 +706,7 @@
     <string name="smart_mix_most_played">Most played</string>
     <string name="smart_mix_most_played_desc">The recitations you keep coming back to.</string>
     <string name="smart_mix_forgotten_favorites">Forgotten favorites</string>
-    <string name="smart_mix_forgotten_favorites_desc">Favorite recitations you haven't played in two months.</string>
+    <string name="smart_mix_forgotten_favorites_desc">Favorite recitations you haven\'t played in two months.</string>
     <string name="smart_mix_no_lyrics">Recitations without text</string>
     <string name="smart_mix_no_lyrics_desc">A shortlist of recitations that do not have text yet.</string>
     <string name="smart_mix_long_songs">Long Recitations</string>
