@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="widget_open">Open LogaRhythm</string>
-    <string name="widget_small_label">LogaRhythm Cover</string>
-    <string name="widget_small_description">Album cover with play and pause</string>
-    <string name="widget_strip_label">LogaRhythm Compact</string>
-    <string name="widget_strip_description">Track details and compact playback controls</string>
-    <string name="widget_medium_label">LogaRhythm Progress</string>
-    <string name="widget_medium_description">Artwork, progress, and playback controls</string>
-    <string name="widget_large_label">LogaRhythm Complete</string>
-    <string name="widget_large_description">Full playback controls and your up-next queue</string>
-    <string name="widget_player_label">LogaRhythm Player</string>
-    <string name="widget_player_description">Large artwork with every playback control in the app theme</string>
-    <string name="widget_queue_label">LogaRhythm Playlist</string>
-    <string name="widget_queue_description">Scrollable song list with playback controls</string>
-    <string name="widget_no_songs">No songs in library</string>
-    <string name="widget_select_to_play">Select a song to play</string>
+    <string name="widget_open">Open Najva</string>
+    <string name="widget_small_label">Najva Recitation</string>
+    <string name="widget_small_description">Recitation artwork with playback controls</string>
+    <string name="widget_strip_label">Najva Compact</string>
+    <string name="widget_strip_description">Recitation details and compact playback controls</string>
+    <string name="widget_medium_label">Najva Progress</string>
+    <string name="widget_medium_description">Artwork, playback progress and controls</string>
+    <string name="widget_large_label">Najva Complete</string>
+    <string name="widget_large_description">Full playback controls and upcoming recitations</string>
+    <string name="widget_player_label">Najva Player</string>
+    <string name="widget_player_description">Large recitation artwork with all playback controls</string>
+    <string name="widget_queue_label">Najva Queue</string>
+    <string name="widget_queue_description">Scrollable recitation list with playback controls</string>
+    <string name="widget_no_songs">No recitations in your library</string>
+    <string name="widget_select_to_play">Choose a recitation to play</string>
 </resources>
