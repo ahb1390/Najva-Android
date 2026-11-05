@@ -108,7 +108,7 @@ class MainActivity : ComponentActivity() {
             val themeMode by preferencesManager.themeMode.collectAsStateWithLifecycle(initialValue = "system")
             val themeStyle by preferencesManager.themeStyle.collectAsStateWithLifecycle(initialValue = "default")
             val brandPalette by preferencesManager.brandPalette.collectAsStateWithLifecycle(initialValue = "emerald")
-            val customAccent by preferencesManager.customAccentColor.collectAsStateWithLifecycle(initialValue = 0xFFF4B266)
+            val customAccent by preferencesManager.customAccentColor.collectAsStateWithLifecycle(initialValue = 0xFF35D39A)
             val customBase by preferencesManager.customBase.collectAsStateWithLifecycle(initialValue = "dark")
             val cornerRoundness by preferencesManager.cornerRoundness.collectAsStateWithLifecycle(initialValue = "standard")
             val customBackgroundUri by preferencesManager.customBackgroundUri.collectAsStateWithLifecycle(initialValue = null)
