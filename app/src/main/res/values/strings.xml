@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">LogaRhythm</string>
+    <string name="app_name">Najva</string>
     <string name="nav_home">Home</string>
     <string name="nav_search">Search</string>
     <string name="nav_library">Library</string>
@@ -238,9 +238,12 @@
     <string name="settings_theme_dark">Dark</string>
     <string name="settings_theme_studio_title">Theme Studio</string>
     <string name="theme_studio_title">Theme Studio</string>
+    <string name="theme_brand_palette_title">Najva palettes</string>
+    <string name="theme_brand_emerald">Emerald</string>
+    <string name="theme_brand_ashura">Ashura</string>
     <string name="theme_presets_title">Presets</string>
-    <string name="theme_preset_default">Ink &amp; Ember</string>
-    <string name="theme_preset_default_desc">The original warm LogaRhythm palette</string>
+    <string name="theme_preset_default">Built-in</string>
+    <string name="theme_preset_default_desc">Use the selected Najva brand palette</string>
     <string name="theme_preset_oled">OLED Black</string>
     <string name="theme_preset_oled_desc">True black surfaces, made for OLED</string>
     <string name="theme_preset_album_art">Album Art</string>
@@ -263,8 +266,8 @@
     <string name="theme_hue">Hue</string>
     <string name="theme_saturation">Saturation</string>
     <string name="theme_mode_title">Light or dark</string>
-    <string name="theme_mode_note">Applies to Ink &amp; Ember, Album Art and Wallpaper. OLED and Custom use their own base above.</string>
-    <string name="theme_album_wallpaper_note">Album Art uses the current cover; it falls back to Ink &amp; Ember when nothing is playing or the cover has no artwork. Wallpaper needs Android 12 or newer.</string>
+    <string name="theme_mode_note">Applies to the built-in, Album Art and Wallpaper appearances. OLED and Custom use their own base above.</string>
+    <string name="theme_album_wallpaper_note">Album Art uses the current cover; it falls back to the selected Najva palette when nothing is playing or the cover has no artwork. Wallpaper needs Android 12 or newer.</string>
     <string name="theme_preview_track">Now playing</string>
     <string name="theme_preview_album">Live theme preview</string>
     <string name="theme_preview_chip_primary">Primary</string>
