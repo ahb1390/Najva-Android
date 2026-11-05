@@ -4,7 +4,7 @@
 
 # Najva
 
-A local music player for Android.<br>
+An offline maddahi and devotional recitation player for Android.<br>
 No account, no subscription, no ads. Your library stays on your phone.
 
 <a href="https://github.com/ahb1390/Najva-Android/releases/latest"><img alt="Download APK" src="https://img.shields.io/badge/Download-APK-2ea44f?logo=android&logoColor=white" /></a>
@@ -25,49 +25,49 @@ English · [فارسی](README.fa.md)
 
 ## About
 
-Najva plays the music that is already on your phone. Playlists, history, edited tags and lyrics are stored on the device, and your files never leave it. The features that use the network are the ones you start yourself — online lyrics, music download and the optional AI playlist — plus a daily check for a newer release on GitHub and, optionally, one anonymous install record on first launch when the maintainer configures an install-counter endpoint. App updates never send that record again. Neither call includes an account, file names, library data or an advertising id. GitHub also counts APK downloads the same way it counts any other file.
+Najva plays the maddahi and devotional recitations already stored on your phone. Playlists, history, edited tags and lyrics are stored on the device, and your files never leave it. The features that use the network are the ones you start yourself — online lyrics, music download and the optional AI playlist — plus a daily check for a newer release on GitHub and, optionally, one anonymous install record on first launch when the maintainer configures an install-counter endpoint. App updates never send that record again. Neither call includes an account, file names, library data or an advertising id. GitHub also counts APK downloads the same way it counts any other file.
 
 ## Features
 
 ### Playback
-- Cross-fade between songs, skip silence, per-song playback speed
-- Sleep timer by minutes or by number of tracks; resume position for long tracks
+- Cross-fade between recitations, skip silence, per-recitation playback speed
+- Sleep timer by minutes or by number of recitations; resume position for long tracks
 - Playback resumes when headphones reconnect
-- Swipe the cover to preview the next or previous song; the next cover always waits on the right, so swiping left advances and swiping right goes back
-- ReplayGain (track and album), preamp, 5-band equalizer, bass boost and virtualizer
+- Swipe the cover to preview the next or previous recitation; the next cover always waits on the right, so swiping left advances and swiping right goes back
+- ReplayGain (recitation and collection), preamp, 5-band equalizer, bass boost and virtualizer
 - Home screen widgets in five sizes, from a 2×2 cover to a 4×4 player with an up-next queue
 
 ### Queue
 - Three sections: what already played, what is playing now, and what comes next
-- Drag the grip to reorder upcoming songs; the played section stays put as history
+- Drag the grip to reorder upcoming recitations; the played section stays put as history
 - Swipe a row to remove it, with undo; tap any row to jump to it
 - Save the whole queue as a playlist in one tap
 
-### Lyrics
-- Reads lyrics embedded in the file, a `.lrc` file next to it, or fetches them online (LRCLIB, NetEase, Kugou, lyrics.ovh, Genius)
+### Recitation text
+- Reads recitation text embedded in the audio file or from a `.lrc` file beside it, or fetches them online (LRCLIB, NetEase, Kugou, lyrics.ovh, Genius)
 - Synced scrolling, timing adjustment, manual editing, import and export
-- Each online source can be turned off, and you can point the app at your own lyrics server
+- Each online source can be turned off, and you can point the app at your own recitation-text server
 
 ### Tags and covers
-- Edit title, artist, album, album artist, genre, year, track and disc number, composer
+- Edit recitation title, maddah name, collection, category, year and audio-file information
 - Change, crop or remove the cover art; find covers online from iTunes and Deezer
 - Auto-fill tags from online metadata; a "Fix names" tool cleans messy file names
 - Writes go to a staged copy and are verified before the original file is replaced
 
-### Library
-- Sort and filter by title, artist, album, year, date added, duration, play count and more
-- Multi-select for queueing, playlists, favorites and hiding songs
-- Swipe a song to the right to play it next without interrupting playback
+### Maddahi library
+- Sort and filter by recitation title, maddah, collection and year, date added, duration, play count and more
+- Multi-select for queueing, playlists, favorites and hiding recitations
+- Swipe a recitation to the right to play it next without interrupting playback
 - Hides ringtones, notifications, alarms and recordings by default, with a switch to show them
-- Stats for your most played songs, artists and albums
+- Stats for your most played recitations, maddah and collections
 
-### Downloads
+### Maddahi downloads
 - Search and download from YouTube, SoundCloud and MusicMan, in original quality
-- Album downloads with a track picker, duplicate detection and one summary notification
-- Metadata and cover art merged from Deezer, iTunes and MusicBrainz; the source artist always wins
+- Collection downloads with a recitation picker, duplicate detection and one summary notification
+- Metadata and cover art merged from Deezer, iTunes and MusicBrainz; the selected source's maddah metadata takes priority
 
 ### AI (optional)
-- Describe a mood and get a playlist; regenerate the daily mix while keeping the current songs
+- Describe a mood and get a recitation playlist; regenerate the daily mix while keeping the current songs
 - Works with Gemini or any OpenAI-compatible endpoint you configure; the key stays on the device
 
 ### Updates and installs
@@ -76,7 +76,7 @@ Najva plays the music that is already on your phone. Playlists, history, edited 
 - Settings → About shows the installed version, the latest release and its download count
 
 ### Appearance and data
-- Material 3 with a custom palette; colors can follow the album art, the wallpaper or your own choice
+- Material 3 with a custom palette; colors can follow the collection artwork, the wallpaper or your own choice
 - Full Persian localization and right-to-left layout
 - Backup and restore playlists, favorites, history and lyrics in one file; M3U import and export
 
@@ -101,7 +101,7 @@ cd Najva-Android
 
 ## Privacy
 
-- Your music, playlists, history, tags and lyrics never leave the device.
+- Your recitations, playlists, history, audio tags and recitation text never leave the device.
 - Online lyrics, downloads and the AI playlist only run when you start them.
 - The daily update check sends a plain HTTPS request to GitHub with no device information.
 - An anonymous install counter is optional and only runs when the maintainer configures `INSTALL_ENDPOINT`; otherwise no install record is sent.
