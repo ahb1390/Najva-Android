@@ -24,18 +24,18 @@
     <string name="library_scanning">در حال اسکن کتابخانه…</string>
     <string name="library_scan_failed">به‌روزرسانی مداحی‌ها ناموفق بود؛ کتابخانهٔ فعلی حفظ شده است. دوباره تلاش کن.</string>
     <string name="library_track_count">%1$d مداحی</string>
-    <string name="cd_artwork">تصویر آلبوم برای %1$s</string>
-    <string name="cd_rescan">اسکن مجدد کتابخانه موسیقی</string>
+    <string name="cd_artwork">تصویر مداحی برای %1$s</string>
+    <string name="cd_rescan">اسکن مجدد کتابخانهٔ مداحی</string>
     <string name="cd_permission_icon">آیکون دسترسی فایل‌های صوتی</string>
 
     <!-- Playback -->
     <string name="cd_play">پخش</string>
     <string name="cd_pause">توقف</string>
-    <string name="cd_skip_next">آهنگ بعدی</string>
-    <string name="cd_skip_prev">آهنگ قبلی</string>
+    <string name="cd_skip_next">مداحی بعدی</string>
+    <string name="cd_skip_prev">مداحی قبلی</string>
     <string name="cd_shuffle">پخش تصادفی</string>
     <string name="cd_repeat">تکرار</string>
-    <string name="cd_repeat_one">تکرار همین آهنگ</string>
+    <string name="cd_repeat_one">تکرار همین مداحی</string>
     <string name="cd_collapse_player">بستن صفحه پخش</string>
     <string name="cd_seek_bar">نوار پیشرفت پخش</string>
     <string name="unknown_title">عنوان نامشخص</string>
@@ -66,7 +66,7 @@
     <string name="cd_back">بازگشت</string>
     <string name="empty_album_tracks">مداحی‌ای در این مجموعه پیدا نشد</string>
     <string name="empty_artist_tracks">مداحی‌ای از این مداح پیدا نشد</string>
-    <string name="empty_folder_tracks">هیچ آهنگی در این پوشه وجود ندارد</string>
+    <string name="empty_folder_tracks">هیچ مداحی‌ای در این پوشه وجود ندارد</string>
     <string name="empty_albums">مجموعه‌ای پیدا نشد</string>
     <string name="empty_artists">مداحی‌ای پیدا نشد</string>
     <string name="empty_folders">هیچ پوشه‌ای یافت نشد</string>
@@ -85,7 +85,7 @@
     <string name="cd_remove_from_queue">حذف از صف</string>
     <string name="action_play_next">پخش به عنوان بعدی</string>
     <string name="swipe_play_next">بعدی</string>
-    <string name="swipe_play_next_action">پخش به‌عنوان آهنگ بعدی</string>
+    <string name="swipe_play_next_action">پخش به‌عنوان مداحی بعدی</string>
     <string name="action_add_to_queue">افزودن به صف</string>
     <string name="action_add_to_playlist">افزودن به لیست پخش</string>
     <string name="action_remove_from_playlist">حذف از لیست پخش</string>
@@ -93,8 +93,8 @@
     <string name="playing_next">به عنوان بعدی پخش خواهد شد</string>
     <string name="added_to_playlist">به «%1$s» افزوده شد</string>
     <string name="removed_from_playlist">از لیست پخش حذف شد</string>
-    <string name="cd_song_menu">گزینه‌های آهنگ %1$s</string>
-    <string name="selection_count">%1$d آهنگ انتخاب شد</string>
+    <string name="cd_song_menu">گزینه‌های مداحی %1$s</string>
+    <string name="selection_count">%1$d مداحی انتخاب شد</string>
     <string name="selection_select_all">انتخاب همه</string>
     <string name="selection_unselect_all">لغو انتخاب همه</string>
     <string name="selection_close">خروج از انتخاب</string>
@@ -102,15 +102,15 @@
     <string name="selection_favorite">علاقه‌مندی</string>
     <string name="selection_share">اشتراک‌گذاری</string>
     <string name="selection_delete">حذف</string>
-    <string name="selection_deleted">%1$d آهنگ حذف شد</string>
-    <string name="selection_delete_confirm_title">حذف آهنگ‌ها</string>
-    <string name="selection_delete_confirm_msg">آیا از حذف %1$d آهنگ انتخاب‌شده از حافظه دستگاه مطمئن هستید؟</string>
-    <string name="selection_playing_next">%1$d آهنگ به‌عنوان بعدی پخش می‌شود</string>
-    <string name="selection_added_to_queue">%1$d آهنگ به صف افزوده شد</string>
-    <string name="selection_added_to_favorites">%1$d آهنگ به علاقه‌مندی‌ها افزوده شد</string>
-    <string name="selection_hidden">%1$d آهنگ پنهان شد</string>
-    <string name="selection_added_to_playlist">%1$d آهنگ به «%2$s» افزوده شد</string>
-    <string name="selection_removed_from_playlist">%1$d آهنگ از لیست پخش حذف شد</string>
+    <string name="selection_deleted">%1$d مداحی حذف شد</string>
+    <string name="selection_delete_confirm_title">حذف مداحی‌ها</string>
+    <string name="selection_delete_confirm_msg">آیا از حذف %1$d مداحی انتخاب‌شده از حافظه دستگاه مطمئن هستید؟</string>
+    <string name="selection_playing_next">%1$d مداحی به‌عنوان بعدی پخش می‌شود</string>
+    <string name="selection_added_to_queue">%1$d مداحی به صف پخش افزوده شد</string>
+    <string name="selection_added_to_favorites">%1$d مداحی به علاقه‌مندی‌ها افزوده شد</string>
+    <string name="selection_hidden">%1$d مداحی پنهان شد</string>
+    <string name="selection_added_to_playlist">%1$d مداحی به «%2$s» افزوده شد</string>
+    <string name="selection_removed_from_playlist">%1$d مداحی از فهرست پخش حذف شد</string>
     <string name="playlist_favorites">علاقه‌مندی‌ها</string>
     <string name="playlist_create">لیست پخش جدید</string>
     <string name="playlist_name_hint">نام لیست پخش</string>
@@ -122,7 +122,7 @@
     <string name="btn_rename">تغییر نام</string>
     <string name="btn_delete">حذف</string>
     <string name="btn_cancel">لغو</string>
-    <string name="empty_playlist_tracks">هیچ آهنگی در این لیست پخش وجود ندارد</string>
+    <string name="empty_playlist_tracks">هیچ مداحی‌ای در این فهرست پخش وجود ندارد</string>
     <string name="playlist_track_count">%1$d مداحی</string>
     <string name="cd_favorite">افزودن به علاقه‌مندی‌ها</string>
     <string name="cd_unfavorite">حذف از علاقه‌مندی‌ها</string>
@@ -136,12 +136,12 @@
     <string name="stats_total_time">کل زمان گوش دادن</string>
     <string name="stats_history">تاریخچه پخش</string>
     <string name="stats_history_empty_title">هنوز تاریخچه پخشی ثبت نشده</string>
-    <string name="stats_history_empty_desc">آهنگ‌هایی که گوش می‌دهید به ترتیب زمانی اینجا نمایش داده می‌شوند.</string>
-    <string name="stats_top_tracks">برترین آهنگ‌ها</string>
+    <string name="stats_history_empty_desc">مداحی‌هایی که گوش می‌دهید به ترتیب زمانی اینجا نمایش داده می‌شوند.</string>
+    <string name="stats_top_tracks">مداحی‌های برتر</string>
     <string name="stats_top_artists">مداحان برتر</string>
     <string name="stats_top_albums">مجموعه‌های برتر</string>
     <string name="stats_empty_title">هنوز آماری ثبت نشده است</string>
-    <string name="stats_empty_desc">برای مشاهده آمار و رتبه‌بندی‌ها، آهنگ‌های مورد علاقه‌تان را پخش کنید.</string>
+    <string name="stats_empty_desc">برای مشاهدهٔ آمار و رتبه‌بندی‌ها، مداحی‌های مورد علاقه‌تان را پخش کنید.</string>
     <string name="stats_play_count">%1$d بار پخش</string>
     <string name="home_recently_played">اخیراً پخش شده</string>
     <string name="home_browse_library">مشاهده کتابخانه</string>
@@ -189,14 +189,14 @@
 
     <!-- Sleep timer, equalizer and playback speed -->
     <string name="sleep_timer_title">تایمر خواب</string>
-    <string name="sleep_timer_end_of_track">پایان آهنگ فعلی</string>
+    <string name="sleep_timer_end_of_track">پایان مداحی فعلی</string>
     <string name="sleep_timer_active">فعال: %1$s باقی‌مانده</string>
     <string name="sleep_timer_cancel">لغو تایمر</string>
     <string name="sleep_timer_tab_minutes">تعداد دقیقه</string>
-    <string name="sleep_timer_tab_tracks">تعداد ترک</string>
-    <string name="sleep_timer_tracks_count">%1$d ترک</string>
+    <string name="sleep_timer_tab_tracks">تعداد مداحی</string>
+    <string name="sleep_timer_tracks_count">%1$d مداحی</string>
     <string name="sleep_timer_one_track">۱ مداحی (پایان مداحی فعلی)</string>
-    <string name="sleep_timer_tracks_remaining">%1$d ترک باقی‌مانده</string>
+    <string name="sleep_timer_tracks_remaining">%1$d مداحی باقی‌مانده</string>
     <string name="sleep_timer_start">تنظیم تایمر</string>
     <string name="sleep_timer_minutes_count">%1$d دقیقه</string>
 
@@ -222,7 +222,7 @@
     <string name="home_daily_mixes">گزیده‌های روزانه</string>
     <string name="home_shuffle_all_action">پخش تصادفی</string>
     <string name="home_session_minutes">%1$d دقیقه</string>
-    <string name="home_session_unavailable">آهنگ قابل‌پخشی برای ساخت این بازه پیدا نشد</string>
+    <string name="home_session_unavailable">مداحی قابل‌پخشی برای ساخت این نوبت پیدا نشد</string>
     <string name="home_recently_added">تازه‌های کتابخانه</string>
     <string name="daily_mix_play">پخش %1$s</string>
     <string name="settings_category_appearance">ظاهر و پوسته</string>
@@ -310,10 +310,10 @@
     <!-- Genres, sorting and player controls -->
     <string name="tab_genres">سبک‌ها</string>
     <string name="empty_genres">هیچ سبکی یافت نشد</string>
-    <string name="empty_genre_tracks">هیچ آهنگی در این سبک وجود ندارد</string>
+    <string name="empty_genre_tracks">هیچ مداحی‌ای در این دسته‌بندی وجود ندارد</string>
     <string name="genre_track_count">%1$d مداحی</string>
     <string name="sort_by_title">مرتب‌سازی بر اساس</string>
-    <string name="sort_title">عنوان آهنگ</string>
+    <string name="sort_title">عنوان مداحی</string>
     <string name="sort_artist">مداح</string>
     <string name="sort_album">مجموعه</string>
     <string name="sort_date_added">تاریخ افزودن</string>
@@ -335,7 +335,7 @@
     <string name="filter_favorites">مورد علاقه</string>
     <string name="filter_downloaded">دانلودشده</string>
     <string name="filter_recently_added">افزوده‌شده‌های اخیر</string>
-    <string name="filter_empty_title">آهنگی در این فیلتر نیست</string>
+    <string name="filter_empty_title">مداحی‌ای در این فیلتر نیست</string>
     <string name="cd_rewind_10">۱۰ ثانیه به عقب</string>
     <string name="cd_forward_10">۱۰ ثانیه به جلو</string>
     <string name="player_style_vinyl">وینیل</string>
@@ -397,7 +397,7 @@
     <string name="player_menu_start_radio">ساخت رادیو از این آهنگ</string>
     <string name="player_radio_started">پخش خودکار با %1$d مداحی مشابه آغاز شد و صف قبلی جایگزین شد.</string>
     <string name="player_radio_empty">فعلاً مداحی مشابه کافی برای پخش خودکار وجود ندارد.</string>
-    <string name="search_no_results_hint">عنوان کوتاه‌تر، نام خواننده یا نام آلبوم را امتحان کن</string>
+    <string name="search_no_results_hint">عنوان کوتاه‌تر، نام مداح یا نام مجموعه را امتحان کنید.</string>
     <string name="search_clear_query_action">پاک کردن جستجو</string>
     <string name="search_album_metadata">%1$s • %2$d آهنگ</string>
     <string name="home_greeting_morning">صبح بخیر</string>
@@ -409,15 +409,15 @@
     <string name="home_right_now_afternoon">بعدازظهر تو</string>
     <string name="home_right_now_evening">عصر تو</string>
     <string name="home_right_now_night">شب تو</string>
-    <string name="home_right_now_habit">آهنگ‌هایی که در این ساعت سراغشان می‌روی</string>
+    <string name="home_right_now_habit">مداحی‌هایی که در این ساعت بیشتر می‌شنوید</string>
     <string name="home_right_now_mood">شروعی ملایم تا LogaRhythm ریتم تو را بشناسد</string>
     <string name="home_right_now_play">پخش</string>
     <string name="home_on_repeat">روی تکرار</string>
     <string name="home_because_played">چون «%1$s» را گوش دادی</string>
     <string name="action_edit_track_info">ویرایش مشخصات آهنگ</string>
-    <string name="edit_track_title">ویرایش مشخصات آهنگ</string>
-    <string name="edit_track_subtitle">تغییرات مستقیماً روی برچسب‌های فایل اصلی آهنگ (ID3) و دیتابیس دستگاه ذخیره می‌شوند.</string>
-    <string name="edit_track_field_title">عنوان آهنگ</string>
+    <string name="edit_track_title">ویرایش اطلاعات مداحی</string>
+    <string name="edit_track_subtitle">تغییرات مستقیماً در اطلاعات فایل صوتی و کتابخانهٔ دستگاه ذخیره می‌شوند.</string>
+    <string name="edit_track_field_title">عنوان مداحی</string>
     <string name="edit_track_field_artist">مداح</string>
     <string name="edit_track_field_album">نام مجموعه</string>
     <string name="edit_track_field_genre">سبک موسیقی</string>
@@ -445,13 +445,13 @@
     <string name="tag_editor_field_disc">شمارهٔ دیسک</string>
     <string name="tag_editor_field_composer">آهنگ‌ساز</string>
     <string name="tag_editor_saved">برچسب‌ها ذخیره شدند</string>
-    <string name="tag_editor_not_local">این آهنگ فایل محلی نیست و قابل ویرایش نیست.</string>
+    <string name="tag_editor_not_local">این مداحی یک فایل محلی نیست و امکان ویرایش آن وجود ندارد.</string>
     <string name="tag_editor_error_unsupported">این قالب فایل نمی‌تواند همهٔ این برچسب‌ها را نگه دارد.</string>
     <string name="tag_editor_error_denied">دسترسی به حافظه رد شد؛ هیچ تغییری اعمال نشد.</string>
     <string name="tag_editor_error_no_space">فضای آزاد کافی برای بازنویسی ایمن فایل وجود ندارد.</string>
     <string name="tag_editor_error_failed">فایل به‌روزرسانی نشد. نسخهٔ اصلی صدا بازیابی شد.</string>
     <string name="btn_save">ذخیره</string>
-    <string name="track_updated_toast">مشخصات آهنگ به‌روزرسانی شد</string>
+    <string name="track_updated_toast">اطلاعات مداحی به‌روزرسانی شد</string>
     <string name="lyrics_search_custom_btn">جستجوی دستی با نام</string>
     <string name="lyrics_custom_query_hint">نام مداحی</string>
     <string name="lyrics_custom_artist_hint">نام مداح (اختیاری)</string>
