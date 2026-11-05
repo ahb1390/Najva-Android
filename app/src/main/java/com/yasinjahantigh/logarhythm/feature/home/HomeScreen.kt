@@ -30,7 +30,7 @@ import androidx.compose.material.icons.filled.Bedtime
 import androidx.compose.material.icons.filled.CenterFocusStrong
 import androidx.compose.material.icons.filled.Cloud
 import androidx.compose.material.icons.filled.History
-import androidx.compose.material.icons.filled.MusicNote
+import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material.icons.filled.Psychology
 import androidx.compose.material.icons.filled.Autorenew
 import androidx.compose.material.icons.filled.Radio
@@ -159,7 +159,7 @@ fun HomeScreen(
                 verticalArrangement = Arrangement.Center
             ) {
                 Icon(
-                    imageVector = if (audioGranted) Icons.Filled.MusicNote else Icons.Filled.Lock,
+                    imageVector = if (audioGranted) Icons.Filled.Mic else Icons.Filled.Lock,
                     contentDescription = null,
                     modifier = Modifier.size(72.dp),
                     tint = MaterialTheme.colorScheme.primary.copy(alpha = 0.6f)
