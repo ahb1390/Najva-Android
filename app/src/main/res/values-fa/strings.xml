@@ -383,7 +383,7 @@
     <string name="detail_artist">مداح</string>
     <string name="detail_album">مجموعه</string>
     <string name="detail_duration">مدت زمان</string>
-    <string name="detail_file_path">مسیر فایل</string>
+    <string name="detail_file_path">نام فایل</string>
     <string name="detail_file_size">حجم فایل</string>
     <string name="detail_source">منبع</string>
     <string name="action_share_song">اشتراک‌گذاری مداحی</string>
