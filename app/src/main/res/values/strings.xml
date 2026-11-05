@@ -158,7 +158,7 @@
     <string name="settings_lrclib_title">Online recitation text (LRCLIB)</string>
     <string name="settings_lrclib_desc">Fetch synced lyrics automatically from lrclib.net</string>
     <string name="settings_genius_title">Genius fallback</string>
-    <string name="settings_genius_desc">Use Genius for plain lyrics when no timed source finds the song</string>
+    <string name="settings_genius_desc">Use Genius for plain recitation text when no timed source finds a match</string>
     <string name="settings_lyrics_sources_title">Recitation text sources</string>
     <string name="settings_lyrics_sources_desc">Choose which online sources may be used. Blocked sources are skipped automatically.</string>
     <string name="settings_lyrics_netease_title">NetEase</string>
@@ -266,7 +266,7 @@
     <string name="theme_hue">Hue</string>
     <string name="theme_saturation">Saturation</string>
     <string name="theme_mode_title">Light or dark</string>
-    <string name="theme_mode_note">Applies to the built-in, Album Art and Wallpaper appearances. OLED and Custom use their own base above.</string>
+    <string name="theme_mode_note">Applies to the built-in, Collection Artwork and Wallpaper appearances. OLED and Custom use their own base above.</string>
     <string name="theme_album_wallpaper_note">Collection Artwork uses the current recitation cover and falls back to the selected Najva palette when nothing is playing. Wallpaper needs Android 12 or newer.</string>
     <string name="theme_preview_track">Now playing</string>
     <string name="theme_preview_album">Live Najva theme preview</string>
@@ -527,7 +527,7 @@
     <string name="settings_separators_hint">One separator per line. Spaces around a separator matter.</string>
     <string name="settings_never_split_title">Never split these names</string>
     <string name="settings_never_split_desc">Protect band names that contain a comma or &amp;</string>
-    <string name="settings_never_split_hint">One artist name per line. Matching ignores case and surrounding spaces.</string>
+    <string name="settings_never_split_hint">One maddah name per line. Matching ignores case and surrounding spaces.</string>
     <string name="settings_reset_default">Reset to default</string>
     <string name="settings_library_tools_title">Library tools</string>
     <string name="settings_library_tools_desc">Find duplicate recitations and files missing information</string>
