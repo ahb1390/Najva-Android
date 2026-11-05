@@ -9,7 +9,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Album
+import androidx.compose.material.icons.filled.FolderCopy
 import androidx.compose.material.icons.filled.AutoAwesome
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.GraphicEq
@@ -148,7 +148,7 @@ fun FullPlayerHeader(
                             stringResource(if (isVinylMode) R.string.player_style_artwork else R.string.player_style_vinyl)
                         )
                     },
-                    leadingIcon = { Icon(Icons.Default.Album, contentDescription = null) },
+                    leadingIcon = { Icon(Icons.Default.FolderCopy, contentDescription = null) },
                     onClick = { showMoreMenu = false; onToggleVinyl() },
                     modifier = Modifier.testTag("player_style_toggle")
                 )
