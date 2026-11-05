@@ -18,6 +18,9 @@ class ThemeViewModel @Inject constructor(
     val themeStyle: StateFlow<String> = preferencesManager.themeStyle
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), "default")
 
+    val brandPalette: StateFlow<String> = preferencesManager.brandPalette
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), "emerald")
+
     val themeMode: StateFlow<String> = preferencesManager.themeMode
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), "system")
 
@@ -35,6 +38,10 @@ class ThemeViewModel @Inject constructor(
 
     fun setThemeStyle(style: String) {
         viewModelScope.launch { preferencesManager.setThemeStyle(style) }
+    }
+
+    fun setBrandPalette(palette: String) {
+        viewModelScope.launch { preferencesManager.setBrandPalette(palette) }
     }
 
     fun setThemeMode(mode: String) {
