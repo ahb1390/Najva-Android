@@ -64,6 +64,7 @@ class PreferencesManager @Inject constructor(
     private val keyThemeMode = stringPreferencesKey("key_theme_mode")
     private val keyColorSource = stringPreferencesKey("key_color_source")
     private val keyThemeStyle = stringPreferencesKey("key_theme_style")
+    private val keyBrandPalette = stringPreferencesKey("key_brand_palette")
     private val keyCustomAccent = longPreferencesKey("key_custom_accent")
     private val keyCustomBase = stringPreferencesKey("key_custom_base")
     private val keyCustomBackgroundUri = stringPreferencesKey("key_custom_background_uri")
@@ -174,6 +175,16 @@ class PreferencesManager @Inject constructor(
             "album_art" -> "album_art"
             else -> "default"
         }
+    }
+
+    /** Najva brand palette: emerald | ashura. Independent from the appearance mode and custom color source. */
+    val brandPalette: Flow<String> = dataStore.data.map { preferences ->
+        preferences[keyBrandPalette]?.takeIf { it in setOf("emerald", "ashura") } ?: "emerald"
+    }
+
+    suspend fun setBrandPalette(palette: String) {
+        val normalized = palette.takeIf { it in setOf("emerald", "ashura") } ?: "emerald"
+        dataStore.edit { preferences -> preferences[keyBrandPalette] = normalized }
     }
 
     val customAccentColor: Flow<Long> = dataStore.data.map { preferences ->
