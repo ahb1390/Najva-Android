@@ -6,8 +6,8 @@
     <string name="nav_settings">تنظیمات</string>
     <string name="home_title">خانه</string>
     <string name="settings_title">تنظیمات</string>
-    <string name="home_empty_message">سفر موسیقی شما از اینجا آغاز می‌شود</string>
-    <string name="search_empty_message">جستجوی آهنگ‌ها، هنرمندان و آلبوم‌ها</string>
+    <string name="home_empty_message">آغاز همراهی با نوای مداحی از اینجاست</string>
+    <string name="search_empty_message">جست‌وجوی مداحی‌ها، مداحان و مجموعه‌ها</string>
     <string name="cd_home_icon">برگه خانه</string>
     <string name="cd_search_icon">برگه جستجو</string>
     <string name="cd_library_icon">برگه کتابخانه</string>
@@ -62,7 +62,7 @@
     <string name="btn_shuffle">پخش تصادفی</string>
     <string name="album_track_count">%1$d مداحی</string>
     <string name="artist_metadata">%1$d مداحی • %2$d مجموعه</string>
-    <string name="folder_track_count">%1$d آهنگ</string>
+    <string name="folder_track_count">%1$d مداحی</string>
     <string name="cd_back">بازگشت</string>
     <string name="empty_album_tracks">مداحی‌ای در این مجموعه پیدا نشد</string>
     <string name="empty_artist_tracks">مداحی‌ای از این مداح پیدا نشد</string>
@@ -78,7 +78,7 @@
     <string name="tab_playlists">لیست‌های پخش</string>
     <string name="queue_title">صف پخش</string>
     <string name="queue_empty">صف پخش خالی است</string>
-    <string name="queue_track_count">%1$d آهنگ در صف</string>
+    <string name="queue_track_count">%1$d مداحی در صف پخش</string>
     <string name="queue_item_removed">از صف حذف شد</string>
     <string name="queue_undo">بازگردانی</string>
     <string name="cd_drag_handle">تغییر ترتیب</string>
@@ -123,7 +123,7 @@
     <string name="btn_delete">حذف</string>
     <string name="btn_cancel">لغو</string>
     <string name="empty_playlist_tracks">هیچ آهنگی در این لیست پخش وجود ندارد</string>
-    <string name="playlist_track_count">%1$d آهنگ</string>
+    <string name="playlist_track_count">%1$d مداحی</string>
     <string name="cd_favorite">افزودن به علاقه‌مندی‌ها</string>
     <string name="cd_unfavorite">حذف از علاقه‌مندی‌ها</string>
     <string name="cd_playlist_menu">گزینه‌های لیست پخش</string>
@@ -195,7 +195,7 @@
     <string name="sleep_timer_tab_minutes">تعداد دقیقه</string>
     <string name="sleep_timer_tab_tracks">تعداد ترک</string>
     <string name="sleep_timer_tracks_count">%1$d ترک</string>
-    <string name="sleep_timer_one_track">۱ ترک (پایان آهنگ فعلی)</string>
+    <string name="sleep_timer_one_track">۱ مداحی (پایان مداحی فعلی)</string>
     <string name="sleep_timer_tracks_remaining">%1$d ترک باقی‌مانده</string>
     <string name="sleep_timer_start">تنظیم تایمر</string>
     <string name="sleep_timer_minutes_count">%1$d دقیقه</string>
@@ -213,20 +213,20 @@
     <string name="equalizer_band_db">%1$+d دسی‌بل</string>
 
     <!-- Daily mixes and appearance -->
-    <string name="daily_mix_title_rotation">حال‌وهوای همیشگی</string>
-    <string name="daily_mix_title_rediscover">وقت مرور دوباره</string>
-    <string name="daily_mix_title_discovery">کشف‌های تازه</string>
-    <string name="daily_mix_desc_rotation">آهنگ‌های آشنا و محبوبت</string>
-    <string name="daily_mix_desc_rediscover">موسیقی‌هایی که دوباره ارزش شنیدن دارن</string>
-    <string name="daily_mix_desc_discovery">گوشه‌های کمتر شنیده‌شدهٔ کتابخانه‌ات</string>
-    <string name="home_daily_mixes">میکس‌های روزانه</string>
+    <string name="daily_mix_title_rotation">مداحی‌های همیشگی</string>
+    <string name="daily_mix_title_rediscover">مرور دوبارهٔ نوحه‌ها</string>
+    <string name="daily_mix_title_discovery">نوحه‌های تازه</string>
+    <string name="daily_mix_desc_rotation">مداحی‌های آشنا و محبوبت</string>
+    <string name="daily_mix_desc_rediscover">مداحی‌هایی که دوباره ارزش شنیدن دارند</string>
+    <string name="daily_mix_desc_discovery">مداحی‌های کمتر شنیده‌شدهٔ کتابخانه‌ات</string>
+    <string name="home_daily_mixes">گزیده‌های روزانه</string>
     <string name="home_shuffle_all_action">پخش تصادفی</string>
     <string name="home_session_minutes">%1$d دقیقه</string>
     <string name="home_session_unavailable">آهنگ قابل‌پخشی برای ساخت این بازه پیدا نشد</string>
     <string name="home_recently_added">تازه‌های کتابخانه</string>
     <string name="daily_mix_play">پخش %1$s</string>
     <string name="settings_category_appearance">ظاهر و پوسته</string>
-    <string name="settings_category_library">کتابخانه و اسکن</string>
+    <string name="settings_category_library">کتابخانه و اسکن مداحی‌ها</string>
     <string name="settings_language_save_failed">ذخیره تنظیم زبان انجام نشد، دوباره تلاش کنید</string>
     <string name="settings_language_title">زبان برنامه</string>
     <string name="settings_language_system">پیروی از زبان دستگاه</string>
@@ -294,24 +294,24 @@
     <!-- Onboarding -->
     <string name="no_track_playing">در حال پخش نیست</string>
 
-    <string name="onboarding_welcome_title">به LogaRhythm خوش آمدید</string>
-    <string name="onboarding_welcome_subtitle">تجربه‌ای مدرن و آفلاین که برای مجموعه موسیقی شخصی شما طراحی شده است.</string>
+    <string name="onboarding_welcome_title">به نجوا خوش آمدید</string>
+    <string name="onboarding_welcome_subtitle">تجربه‌ای مدرن و آفلاین برای نگهداری و شنیدن مجموعهٔ مداحی‌های شما.</string>
     <string name="onboarding_feature_offline_title">۱۰۰٪ آفلاین و خصوصی</string>
-    <string name="onboarding_feature_offline_desc">موسیقی‌های شما کاملاً بر روی دستگاه شما باقی می‌ماند بدون هیچ ردیابی.</string>
+    <string name="onboarding_feature_offline_desc">مداحی‌های شما روی دستگاه خودتان باقی می‌مانند و ردیابی نمی‌شوند.</string>
     <string name="onboarding_feature_audio_title">کیفیت برتر و اکولایزر</string>
     <string name="onboarding_feature_audio_desc">شامل اکولایزر ۵ بانده، تایمر خواب و تنظیمات سرعت پخش.</string>
-    <string name="onboarding_feature_lyrics_title">متن همگام و میکس روزانه</string>
-    <string name="onboarding_feature_lyrics_desc">از متن‌های شناور .lrc و ۳ میکس روزانه متناسب با سلیقه خود لذت ببرید.</string>
-    <string name="onboarding_feature_clean_title">کتابخانه تمیز به‌صورت پیش‌فرض</string>
-    <string name="onboarding_feature_clean_desc">فایل‌های صوتی زیر ۶۰ ثانیه و وویس‌های پیام‌رسان به‌صورت خودکار فیلتر می‌شوند. در تنظیمات قابل تغییر است.</string>
-    <string name="onboarding_permission_info">برای شروع، دسترسی به فایل‌های صوتی برای اسکن کتابخانه و دسترسی به اعلان‌ها برای کنترل پخش لازم است.</string>
+    <string name="onboarding_feature_lyrics_title">متن همگام و گزیده‌های روزانه</string>
+    <string name="onboarding_feature_lyrics_desc">از متن همگام مداحی‌ها و گزیده‌های روزانه متناسب با مجموعهٔ خود لذت ببرید.</string>
+    <string name="onboarding_feature_clean_title">کتابخانهٔ مرتب مداحی</string>
+    <string name="onboarding_feature_clean_desc">فایل‌های صوتی کوتاه و پیام‌های صوتی به‌صورت خودکار فیلتر می‌شوند؛ این رفتار از تنظیمات قابل تغییر است.</string>
+    <string name="onboarding_permission_info">برای شروع، دسترسی به فایل‌های صوتی جهت اسکن کتابخانهٔ مداحی و اعلان‌ها برای کنترل پخش لازم است.</string>
     <string name="onboarding_btn_start">شروع کنید</string>
  
     <!-- Genres, sorting and player controls -->
     <string name="tab_genres">سبک‌ها</string>
     <string name="empty_genres">هیچ سبکی یافت نشد</string>
     <string name="empty_genre_tracks">هیچ آهنگی در این سبک وجود ندارد</string>
-    <string name="genre_track_count">%1$d آهنگ</string>
+    <string name="genre_track_count">%1$d مداحی</string>
     <string name="sort_by_title">مرتب‌سازی بر اساس</string>
     <string name="sort_title">عنوان آهنگ</string>
     <string name="sort_artist">مداح</string>
@@ -322,7 +322,7 @@
     <string name="sort_year">سال انتشار</string>
     <string name="sort_play_count">تعداد پخش</string>
     <string name="sort_last_played">آخرین پخش</string>
-    <string name="sort_track_count">تعداد آهنگ</string>
+    <string name="sort_track_count">تعداد مداحی</string>
     <string name="sort_random">تصادفی</string>
     <string name="sort_ascending">صعودی</string>
     <string name="sort_descending">نزولی</string>
@@ -359,7 +359,7 @@
     <string name="mood_energy_boost">افزایش انرژی</string>
     <string name="mood_melancholy_rain">حال‌وهوای بارانی</string>
     <string name="mood_acoustic_morning">صبح آکوستیک</string>
-    <string name="mood_empty">هنوز آهنگی برای این میکس در دسترس نیست، چند آهنگ به کتابخانه اضافه کنید و دوباره امتحان کنید</string>
+    <string name="mood_empty">هنوز مداحی‌ای برای این گزیده در دسترس نیست. چند فایل به کتابخانه اضافه کنید و دوباره تلاش کنید.</string>
 
     <!-- Song menus and lyrics actions -->
     <string name="action_view_lyrics">مشاهده و ویرایش متن آهنگ</string>
@@ -395,8 +395,8 @@
     <string name="player_more_options">گزینه‌های بیشتر</string>
     <string name="player_menu_equalizer">اکولایزر</string>
     <string name="player_menu_start_radio">ساخت رادیو از این آهنگ</string>
-    <string name="player_radio_started">رادیو با %1$d آهنگ مشابه شروع شد، صف قبلی پخش جایگزین شد</string>
-    <string name="player_radio_empty">فعلاً آهنگ مشابه کافی برای ساخت رادیو وجود ندارد</string>
+    <string name="player_radio_started">پخش خودکار با %1$d مداحی مشابه آغاز شد و صف قبلی جایگزین شد.</string>
+    <string name="player_radio_empty">فعلاً مداحی مشابه کافی برای پخش خودکار وجود ندارد.</string>
     <string name="search_no_results_hint">عنوان کوتاه‌تر، نام خواننده یا نام آلبوم را امتحان کن</string>
     <string name="search_clear_query_action">پاک کردن جستجو</string>
     <string name="search_album_metadata">%1$s • %2$d آهنگ</string>
@@ -453,7 +453,7 @@
     <string name="btn_save">ذخیره</string>
     <string name="track_updated_toast">مشخصات آهنگ به‌روزرسانی شد</string>
     <string name="lyrics_search_custom_btn">جستجوی دستی با نام</string>
-    <string name="lyrics_custom_query_hint">نام آهنگ</string>
+    <string name="lyrics_custom_query_hint">نام مداحی</string>
     <string name="lyrics_custom_artist_hint">نام مداح (اختیاری)</string>
     <string name="lyrics_search_select">انتخاب و اعمال</string>
     <string name="daily_mix_play_all">پخش همه</string>
@@ -477,7 +477,7 @@
     <string name="lyrics_source_imported">فایل وارد شده</string>
     <string name="lyrics_source_clipboard">از کلیپ‌بورد</string>
     <string name="lyrics_source_online">آنلاین (%1$s)</string>
-    <string name="home_rescan">جست‌وجوی موسیقی</string>
+    <string name="home_rescan">جست‌وجوی مداحی‌ها</string>
 
     <!-- Player and home -->
     <string name="player_action_lyrics">متن آهنگ</string>
