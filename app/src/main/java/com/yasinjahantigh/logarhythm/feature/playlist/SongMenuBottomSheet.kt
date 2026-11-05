@@ -322,7 +322,7 @@ fun SongMenuBottomSheet(
                 title = stringResource(R.string.action_search_lyrics_google),
                 tag = "menu_google_lyrics",
                 onClick = {
-                    val query = "${track.title} ${track.artist} lyrics"
+                    val query = "${track.title} ${track.artist} maddahi recitation text"
                     val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?q=${URLEncoder.encode(query, "UTF-8")}"))
                     context.startActivity(intent)
                     onDismissRequest()
@@ -480,7 +480,7 @@ private fun SongDetailsDialog(
                     DetailRow(label = stringResource(R.string.detail_file_size), value = fileSizeMb)
                 }
                 if (filePath != null) {
-                    DetailRow(label = stringResource(R.string.detail_file_path), value = filePath)
+                    DetailRow(label = stringResource(R.string.detail_file_path), value = File(filePath).name)
                 }
             }
         },
