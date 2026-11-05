@@ -528,7 +528,7 @@
     <string name="settings_separators_hint">در هر خط یک جداکننده. فاصله‌های دور جداکننده مهم‌اند.</string>
     <string name="settings_never_split_title">این نام‌ها را جدا نکن</string>
     <string name="settings_never_split_desc">نام گروه‌هایی که ویرگول یا &amp; دارند را محافظت کن</string>
-    <string name="settings_never_split_hint">هر نام در یک خط. تطبیق بدون توجه به بزرگی و کوچکی حروف است.</string>
+    <string name="settings_never_split_hint">هر نام مداح را در یک خط بنویسید. تطبیق بدون حساسیت به بزرگی حروف و فاصله‌های ابتدا و انتها انجام می‌شود.</string>
     <string name="settings_reset_default">بازگشت به پیش‌فرض</string>
     <string name="settings_library_tools_title">ابزارهای کتابخانه</string>
     <string name="settings_library_tools_desc">پیدا کردن مداحی‌های تکراری و فایل‌های بدون اطلاعات</string>
