@@ -13,7 +13,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material.icons.filled.Album
+import androidx.compose.material.icons.filled.FolderCopy
 import androidx.compose.material.icons.filled.Download
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -126,7 +126,7 @@ fun DownloadResultCard(
             if (onDownloadAlbum != null && activeItem?.isActive != true) {
                 FilledTonalIconButton(onClick = onDownloadAlbum) {
                     Icon(
-                        imageVector = Icons.Filled.Album,
+                        imageVector = Icons.Filled.FolderCopy,
                         contentDescription = stringResource(R.string.download_album)
                     )
                 }
