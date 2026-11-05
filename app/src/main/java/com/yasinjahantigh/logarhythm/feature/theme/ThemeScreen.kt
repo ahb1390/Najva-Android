@@ -29,6 +29,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Wallpaper
 import androidx.compose.material3.Button
@@ -161,6 +162,12 @@ fun ThemeScreen(
         ) {
             item {
                 ThemePreviewCard(modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp))
+                Text(
+                    text = stringResource(R.string.theme_identity_note),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.padding(horizontal = 20.dp, vertical = 4.dp)
+                )
             }
 
             item {
@@ -345,8 +352,16 @@ private fun ThemePreviewCard(modifier: Modifier = Modifier) {
                     modifier = Modifier
                         .size(58.dp)
                         .clip(RoundedCornerShape(18.dp))
-                        .background(Brush.linearGradient(listOf(scheme.primary, scheme.tertiary)))
-                )
+                        .background(Brush.linearGradient(listOf(scheme.primary, scheme.tertiary))),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Icon(
+                        imageVector = Icons.Filled.Favorite,
+                        contentDescription = null,
+                        tint = Color.White,
+                        modifier = Modifier.size(27.dp)
+                    )
+                }
                 Spacer(Modifier.width(14.dp))
                 Column(modifier = Modifier.weight(1f)) {
                     Text(
