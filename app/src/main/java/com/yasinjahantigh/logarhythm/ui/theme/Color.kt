@@ -206,72 +206,100 @@ fun generateDynamicSchemeFromSeed(seed: Color, isDark: Boolean): ColorScheme {
 }
 
 /**
- * Najva's two selectable brand palettes. Existing album-art, wallpaper and custom color
- * sources remain independent; this palette is used by the built-in and OLED appearances.
+ * Najva's selectable brand palettes. The built-in palettes own their complete canvas
+ * and container colors in both light and dark modes; OLED must not erase their identity.
  */
 fun najvaBrandColorScheme(palette: String, isDark: Boolean, oled: Boolean = false): ColorScheme {
     val ashura = palette == "ashura"
-    val base = if (isDark) DarkColorScheme else LightColorScheme
-    val primary = when {
-        ashura && isDark -> Color(0xFFE05252)
-        ashura -> Color(0xFF9F2435)
-        isDark -> Color(0xFF35D39A)
-        else -> Color(0xFF087A52)
+    val gold = if (isDark) Color(0xFFE8C878) else Color(0xFF8A641C)
+
+    return if (ashura) {
+        if (isDark) {
+            darkColorScheme(
+                primary = Color(0xFFFF777B), onPrimary = Color(0xFF4A0710),
+                primaryContainer = Color(0xFF79202B), onPrimaryContainer = Color(0xFFFFDADB),
+                inversePrimary = Color(0xFF9F2435),
+                secondary = gold, onSecondary = Color(0xFF382600),
+                secondaryContainer = Color(0xFF5A4218), onSecondaryContainer = Color(0xFFFFE8B0),
+                tertiary = Color(0xFFE9A0A0), onTertiary = Color(0xFF4A1018),
+                tertiaryContainer = Color(0xFF61232B), onTertiaryContainer = Color(0xFFFFDADB),
+                background = Color(0xFF351018), onBackground = Color(0xFFFFE9E9),
+                surface = Color(0xFF3D121B), onSurface = Color(0xFFFFE9E9),
+                surfaceVariant = Color(0xFF64232D), onSurfaceVariant = Color(0xFFEBC4C5),
+                surfaceTint = Color(0xFFFF777B), inverseSurface = Color(0xFFF8E4E5),
+                inverseOnSurface = Color(0xFF3A1018), surfaceDim = Color(0xFF2D0C13),
+                surfaceBright = Color(0xFF64232D), surfaceContainerLowest = Color(0xFF2A0B12),
+                surfaceContainerLow = Color(0xFF39121A), surfaceContainer = Color(0xFF43151F),
+                surfaceContainerHigh = Color(0xFF4D1A24), surfaceContainerHighest = Color(0xFF59202A),
+                outline = Color(0xFFB8797D), outlineVariant = Color(0xFF78343D),
+                error = Color(0xFFFFB4AB), onError = Color(0xFF690005),
+                errorContainer = Color(0xFF93000A), onErrorContainer = Color(0xFFFFDAD6)
+            )
+        } else {
+            lightColorScheme(
+                primary = Color(0xFFAD2638), onPrimary = Color(0xFFFFF0F0),
+                primaryContainer = Color(0xFFF3BFC5), onPrimaryContainer = Color(0xFF4A0710),
+                inversePrimary = Color(0xFFFF777B),
+                secondary = gold, onSecondary = Color(0xFFFFF7E6),
+                secondaryContainer = Color(0xFFF1DDAF), onSecondaryContainer = Color(0xFF382600),
+                tertiary = Color(0xFF9D4650), onTertiary = Color(0xFFFFF0F0),
+                tertiaryContainer = Color(0xFFF4D0D2), onTertiaryContainer = Color(0xFF4A1018),
+                background = Color(0xFFF4DADD), onBackground = Color(0xFF42131B),
+                surface = Color(0xFFF8E5E7), onSurface = Color(0xFF42131B),
+                surfaceVariant = Color(0xFFEBC6CA), onSurfaceVariant = Color(0xFF63323A),
+                surfaceTint = Color(0xFFAD2638), inverseSurface = Color(0xFF4B1720),
+                inverseOnSurface = Color(0xFFFFE9E9), surfaceDim = Color(0xFFE8C4C8),
+                surfaceBright = Color(0xFFF9E9EA), surfaceContainerLowest = Color(0xFFFBEAEC),
+                surfaceContainerLow = Color(0xFFF6E0E2), surfaceContainer = Color(0xFFF0D5D8),
+                surfaceContainerHigh = Color(0xFFEBCBD0), surfaceContainerHighest = Color(0xFFE5C1C6),
+                outline = Color(0xFF896068), outlineVariant = Color(0xFFD8AEB4),
+                error = Color(0xFFBA1A1A), onError = Color(0xFFFFF0F0),
+                errorContainer = Color(0xFFFFDAD6), onErrorContainer = Color(0xFF410002)
+            )
+        }
+    } else {
+        if (isDark) {
+            darkColorScheme(
+                primary = Color(0xFF43D9A0), onPrimary = Color(0xFF003824),
+                primaryContainer = Color(0xFF086044), onPrimaryContainer = Color(0xFFB9F5D8),
+                inversePrimary = Color(0xFF087B59),
+                secondary = gold, onSecondary = Color(0xFF302400),
+                secondaryContainer = Color(0xFF514014), onSecondaryContainer = Color(0xFFFFE7A8),
+                tertiary = Color(0xFF9BD7B6), onTertiary = Color(0xFF073B2B),
+                tertiaryContainer = Color(0xFF18543F), onTertiaryContainer = Color(0xFFC4F2D8),
+                background = Color(0xFF073B2C), onBackground = Color(0xFFE0F4E7),
+                surface = Color(0xFF084332), onSurface = Color(0xFFE0F4E7),
+                surfaceVariant = Color(0xFF185B45), onSurfaceVariant = Color(0xFFBBDCC9),
+                surfaceTint = Color(0xFF43D9A0), inverseSurface = Color(0xFFDDEFE3),
+                inverseOnSurface = Color(0xFF123D2E), surfaceDim = Color(0xFF052F23),
+                surfaceBright = Color(0xFF23674F), surfaceContainerLowest = Color(0xFF052D22),
+                surfaceContainerLow = Color(0xFF07392A), surfaceContainer = Color(0xFF0A4634),
+                surfaceContainerHigh = Color(0xFF10513D), surfaceContainerHighest = Color(0xFF185D46),
+                outline = Color(0xFF83B99D), outlineVariant = Color(0xFF326E55),
+                error = Color(0xFFFFB4AB), onError = Color(0xFF690005),
+                errorContainer = Color(0xFF93000A), onErrorContainer = Color(0xFFFFDAD6)
+            )
+        } else {
+            lightColorScheme(
+                primary = Color(0xFF087B59), onPrimary = Color(0xFFE9FFF3),
+                primaryContainer = Color(0xFFB5E8CE), onPrimaryContainer = Color(0xFF003824),
+                inversePrimary = Color(0xFF43D9A0),
+                secondary = gold, onSecondary = Color(0xFFFFF8E8),
+                secondaryContainer = Color(0xFFF0E1B8), onSecondaryContainer = Color(0xFF302400),
+                tertiary = Color(0xFF397A59), onTertiary = Color(0xFFF0FFF5),
+                tertiaryContainer = Color(0xFFC6E8D2), onTertiaryContainer = Color(0xFF123D2B),
+                background = Color(0xFFDCEBDD), onBackground = Color(0xFF123D2B),
+                surface = Color(0xFFE5F0E4), onSurface = Color(0xFF123D2B),
+                surfaceVariant = Color(0xFFC9DEC9), onSurfaceVariant = Color(0xFF365A43),
+                surfaceTint = Color(0xFF087B59), inverseSurface = Color(0xFF174532),
+                inverseOnSurface = Color(0xFFE5F0E4), surfaceDim = Color(0xFFD0E2D1),
+                surfaceBright = Color(0xFFECF4E9), surfaceContainerLowest = Color(0xFFEAF3E7),
+                surfaceContainerLow = Color(0xFFE3EEE1), surfaceContainer = Color(0xFFDDE9DA),
+                surfaceContainerHigh = Color(0xFFD5E4D3), surfaceContainerHighest = Color(0xFFCCDECA),
+                outline = Color(0xFF66836D), outlineVariant = Color(0xFFB4CDB6),
+                error = Color(0xFFBA1A1A), onError = Color(0xFFEAF3E7),
+                errorContainer = Color(0xFFFFDAD6), onErrorContainer = Color(0xFF410002)
+            )
+        }
     }
-    val onPrimary = when {
-        ashura && isDark -> Color(0xFF3B080D)
-        ashura -> Color.White
-        isDark -> Color(0xFF003824)
-        else -> Color.White
-    }
-    val primaryContainer = when {
-        ashura && isDark -> Color(0xFF641B25)
-        ashura -> Color(0xFFFFDADF)
-        isDark -> Color(0xFF075239)
-        else -> Color(0xFFB5F0D4)
-    }
-    val onPrimaryContainer = when {
-        ashura && isDark -> Color(0xFFFFDADB)
-        ashura -> Color(0xFF3B0710)
-        isDark -> Color(0xFFB5F0D4)
-        else -> Color(0xFF002114)
-    }
-    val gold = if (isDark) Color(0xFFE5C36A) else Color(0xFF806018)
-    val updated = base.copy(
-        background = if (isDark) Color(0xFF050505) else base.background,
-        surface = if (isDark) Color(0xFF050505) else base.surface,
-        surfaceDim = if (isDark) Color(0xFF050505) else base.surfaceDim,
-        surfaceContainerLowest = if (isDark) Color.Black else base.surfaceContainerLowest,
-        surfaceContainerLow = if (isDark) Color(0xFF090909) else base.surfaceContainerLow,
-        surfaceContainer = if (isDark) Color(0xFF101010) else base.surfaceContainer,
-        surfaceContainerHigh = if (isDark) Color(0xFF171717) else base.surfaceContainerHigh,
-        surfaceContainerHighest = if (isDark) Color(0xFF202020) else base.surfaceContainerHighest,
-        primary = primary,
-        onPrimary = onPrimary,
-        primaryContainer = primaryContainer,
-        onPrimaryContainer = onPrimaryContainer,
-        inversePrimary = if (ashura) Color(0xFFFFB4AB) else Color(0xFF72E6B5),
-        secondary = gold,
-        onSecondary = if (isDark) Color(0xFF302400) else Color.White,
-        secondaryContainer = if (isDark) Color(0xFF514014) else Color(0xFFF4E5B5),
-        onSecondaryContainer = if (isDark) Color(0xFFFFE7A8) else Color(0xFF281D00),
-        tertiary = gold,
-        onTertiary = if (isDark) Color(0xFF302400) else Color.White,
-        tertiaryContainer = if (isDark) Color(0xFF514014) else Color(0xFFF4E5B5),
-        onTertiaryContainer = if (isDark) Color(0xFFFFE7A8) else Color(0xFF281D00),
-        surfaceTint = primary
-    )
-    return if (oled && isDark) updated.copy(
-        background = Color.Black,
-        surface = Color.Black,
-        surfaceDim = Color.Black,
-        surfaceBright = Color(0xFF242424),
-        surfaceContainerLowest = Color.Black,
-        surfaceContainerLow = Color(0xFF060606),
-        surfaceContainer = Color(0xFF0B0B0B),
-        surfaceContainerHigh = Color(0xFF121212),
-        surfaceContainerHighest = Color(0xFF181818),
-        surfaceVariant = Color(0xFF1F1F1F),
-        outlineVariant = Color(0xFF2A2A2A)
-    ) else updated
 }
