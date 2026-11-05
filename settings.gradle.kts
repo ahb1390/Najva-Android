@@ -7,11 +7,11 @@ pluginManagement {
     }
   }
   repositories {
-    // Opt-in mirrors for networks where Google Maven is blocked: logarhythm.mirrors=true
+    // Opt-in mirrors for networks where Google Maven is blocked: najva.mirrors=true
     val mirrors = java.util.Properties().apply {
       val file = java.io.File(settingsDir, "local.properties")
       if (file.isFile) file.inputStream().use { load(it) }
-    }.getProperty("logarhythm.mirrors") == "true"
+    }.getProperty("najva.mirrors") == "true"
     if (mirrors) {
       maven("https://maven.aliyun.com/repository/google")
       maven("https://maven.aliyun.com/repository/public")
@@ -31,7 +31,7 @@ dependencyResolutionManagement {
     val mirrors = java.util.Properties().apply {
       val file = java.io.File(settingsDir, "local.properties")
       if (file.isFile) file.inputStream().use { load(it) }
-    }.getProperty("logarhythm.mirrors") == "true"
+    }.getProperty("najva.mirrors") == "true"
     if (mirrors) {
       maven("https://maven.aliyun.com/repository/google")
       maven("https://maven.aliyun.com/repository/public")
@@ -41,6 +41,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "LogaRhythm"
+rootProject.name = "Najva"
 
 include(":app")
