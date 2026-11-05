@@ -305,7 +305,7 @@ fun LyricsView(
     val onSearchGoogleLyrics: () -> Unit = {
         val title = currentTrack?.title.orEmpty().trim()
         val artist = currentTrack?.artist.orEmpty().trim()
-        val query = "$title $artist lyrics"
+        val query = "$title $artist maddahi recitation text"
         val encoded = URLEncoder.encode(query, "UTF-8")
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?q=$encoded"))
         context.startActivity(intent)
