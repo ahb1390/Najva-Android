@@ -20,6 +20,7 @@ import androidx.core.view.WindowCompat
 fun LogaRhythmTheme(
     themeMode: String = "system",
     themeStyle: String = "default",
+    brandPalette: String = "emerald",
     customAccentColor: Color = Color(0xFFF4B266),
     customBase: String = "dark",
     cornerRoundness: String = "standard",
@@ -39,9 +40,9 @@ fun LogaRhythmTheme(
         "custom" -> customBase != "light"
         else -> darkTheme
     }
-    val fallback = if (effectiveDark) DarkColorScheme else LightColorScheme
+    val fallback = najvaBrandColorScheme(brandPalette, effectiveDark)
     val rawColorScheme = when (themeStyle) {
-        "oled" -> OledColorScheme
+        "oled" -> najvaBrandColorScheme(brandPalette, true, oled = true)
         "album_art" -> seedArtworkColor?.let { generateDynamicSchemeFromSeed(it, effectiveDark) } ?: fallback
         "wallpaper" -> if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             if (effectiveDark) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
