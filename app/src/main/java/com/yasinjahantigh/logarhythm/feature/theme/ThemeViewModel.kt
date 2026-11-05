@@ -25,7 +25,7 @@ class ThemeViewModel @Inject constructor(
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), "system")
 
     val customAccent: StateFlow<Long> = preferencesManager.customAccentColor
-        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), 0xFFF4B266)
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), 0xFF35D39A)
 
     val customBase: StateFlow<String> = preferencesManager.customBase
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), "dark")
