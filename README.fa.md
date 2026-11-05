@@ -8,7 +8,7 @@
 بدون حساب کاربری، بدون اشتراک و بدون تبلیغ؛ کتابخانهٔ شما روی گوشی خودتان می‌ماند
 
 <a href="https://github.com/ahb1390/Najva-Android/releases/latest"><img alt="Download APK" src="https://img.shields.io/badge/Download-APK-2ea44f?logo=android&logoColor=white" /></a>
-<a href="https://github.com/ahb1390/Najva-Android/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Yasinjahantigh/LogaRhythm-Android/total?label=downloads&color=2ea44f" /></a>
+<a href="https://github.com/ahb1390/Najva-Android/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/ahb1390/Najva-Android/total?label=downloads&color=2ea44f" /></a>
 <img alt="Android 8.0+" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white" />
 <img alt="License: Apache 2.0" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" />
 
@@ -27,7 +27,7 @@
 
 ## درباره
 
-نجوا موسیقی‌ای را پخش می‌کند که از قبل روی گوشی شما وجود دارد. لیست‌های پخش، تاریخچه، تگ‌های ویرایش‌شده و متن ترانه‌ها روی خود دستگاه ذخیره می‌شوند و فایل‌های شما جایی نمی‌روند. بخش‌هایی که از اینترنت استفاده می‌کنند همان‌هایی هستند که خودتان اجرا می‌کنید — دریافت آنلاین متن ترانه، دانلود موسیقی و لیست پخش هوش مصنوعی — به‌علاوهٔ بررسی دوره‌ای نسخهٔ تازه در گیت‌هاب؛ شمارندهٔ نصب ناشناس نیز اختیاری است و فقط در صورت پیکربندی آدرس آن توسط نگه‌دارنده فعال می‌شود. بروزرسانی برنامه دیگر این رکورد را نمی‌فرستد. هیچ‌کدام حساب کاربری، نام فایل، اطلاعات کتابخانه یا شناسهٔ تبلیغاتی همراه ندارند. گیت‌هاب هم تعداد دانلود APK را مثل هر فایل دیگری می‌شمارد.
+نجوا موسیقی‌ای را پخش می‌کند که از قبل روی گوشی شما وجود دارد. لیست‌های پخش، تاریخچه، تگ‌های ویرایش‌شده و متن ترانه‌ها روی خود دستگاه ذخیره می‌شوند و فایل‌های شما جایی نمی‌روند. بخش‌هایی که از اینترنت استفاده می‌کنند همان‌هایی هستند که خودتان اجرا می‌کنید — دریافت آنلاین متن ترانه، دانلود موسیقی و لیست پخش هوش مصنوعی — به‌علاوهٔ بررسی دوره‌ای نسخهٔ تازه در گیت‌هاب؛ شمارندهٔ نصب ناشناس نیز اختیاری است و فقط در صورت پیکربندی آدرس آن توسط نگه‌دارنده فعال می‌شود. هیچ‌کدام حساب کاربری، نام فایل، اطلاعات کتابخانه یا شناسهٔ تبلیغاتی همراه ندارند. گیت‌هاب هم تعداد دانلود APK را مثل هر فایل دیگری می‌شمارد.
 
 ## امکانات
 
@@ -92,7 +92,7 @@
 
 ```bash
 git clone https://github.com/ahb1390/Najva-Android.git
-cd LogaRhythm-Android
+cd Najva-Android
 ./gradlew :app:assembleDebug
 ```
 
