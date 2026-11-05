@@ -204,3 +204,66 @@ fun generateDynamicSchemeFromSeed(seed: Color, isDark: Boolean): ColorScheme {
         )
     }
 }
+
+/**
+ * Najva's two selectable brand palettes. Existing album-art, wallpaper and custom color
+ * sources remain independent; this palette is used by the built-in and OLED appearances.
+ */
+fun najvaBrandColorScheme(palette: String, isDark: Boolean, oled: Boolean = false): ColorScheme {
+    val ashura = palette == "ashura"
+    val base = if (isDark) DarkColorScheme else LightColorScheme
+    val primary = when {
+        ashura && isDark -> Color(0xFFE05252)
+        ashura -> Color(0xFF9F2435)
+        isDark -> Color(0xFF35D39A)
+        else -> Color(0xFF087A52)
+    }
+    val onPrimary = when {
+        ashura && isDark -> Color(0xFF3B080D)
+        ashura -> Color.White
+        isDark -> Color(0xFF003824)
+        else -> Color.White
+    }
+    val primaryContainer = when {
+        ashura && isDark -> Color(0xFF641B25)
+        ashura -> Color(0xFFFFDADF)
+        isDark -> Color(0xFF075239)
+        else -> Color(0xFFB5F0D4)
+    }
+    val onPrimaryContainer = when {
+        ashura && isDark -> Color(0xFFFFDADB)
+        ashura -> Color(0xFF3B0710)
+        isDark -> Color(0xFFB5F0D4)
+        else -> Color(0xFF002114)
+    }
+    val gold = if (isDark) Color(0xFFE5C36A) else Color(0xFF806018)
+    val updated = base.copy(
+        primary = primary,
+        onPrimary = onPrimary,
+        primaryContainer = primaryContainer,
+        onPrimaryContainer = onPrimaryContainer,
+        inversePrimary = if (ashura) Color(0xFFFFB4AB) else Color(0xFF72E6B5),
+        secondary = gold,
+        onSecondary = if (isDark) Color(0xFF302400) else Color.White,
+        secondaryContainer = if (isDark) Color(0xFF514014) else Color(0xFFF4E5B5),
+        onSecondaryContainer = if (isDark) Color(0xFFFFE7A8) else Color(0xFF281D00),
+        tertiary = gold,
+        onTertiary = if (isDark) Color(0xFF302400) else Color.White,
+        tertiaryContainer = if (isDark) Color(0xFF514014) else Color(0xFFF4E5B5),
+        onTertiaryContainer = if (isDark) Color(0xFFFFE7A8) else Color(0xFF281D00),
+        surfaceTint = primary
+    )
+    return if (oled && isDark) updated.copy(
+        background = Color.Black,
+        surface = Color.Black,
+        surfaceDim = Color.Black,
+        surfaceBright = Color(0xFF242424),
+        surfaceContainerLowest = Color.Black,
+        surfaceContainerLow = Color(0xFF060606),
+        surfaceContainer = Color(0xFF0B0B0B),
+        surfaceContainerHigh = Color(0xFF121212),
+        surfaceContainerHighest = Color(0xFF181818),
+        surfaceVariant = Color(0xFF1F1F1F),
+        outlineVariant = Color(0xFF2A2A2A)
+    ) else updated
+}
