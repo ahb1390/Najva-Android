@@ -21,7 +21,7 @@ fun LogaRhythmTheme(
     themeMode: String = "system",
     themeStyle: String = "default",
     brandPalette: String = "emerald",
-    customAccentColor: Color = Color(0xFFF4B266),
+    customAccentColor: Color = Color(0xFF35D39A),
     customBase: String = "dark",
     cornerRoundness: String = "standard",
     seedArtworkColor: Color? = null,
