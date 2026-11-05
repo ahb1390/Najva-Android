@@ -143,8 +143,8 @@
     <string name="stats_empty_title">هنوز آماری ثبت نشده است</string>
     <string name="stats_empty_desc">برای مشاهدهٔ آمار و رتبه‌بندی‌ها، مداحی‌های مورد علاقه‌تان را پخش کنید.</string>
     <string name="stats_play_count">%1$d بار پخش</string>
-    <string name="home_recently_played">اخیراً پخش شده</string>
-    <string name="home_browse_library">مشاهده کتابخانه</string>
+    <string name="home_recently_played">مداحی‌های اخیر</string>
+    <string name="home_browse_library">مشاهدهٔ کتابخانهٔ مداحی</string>
     <string name="home_stats_card_title">آمار شنیدن مداحی</string>
     <string name="home_stats_card_desc">شما %1$s به مداحی گوش داده‌اید</string>
     <string name="home_stats_card_action">مشاهده آمار گوش دادن</string>
@@ -214,8 +214,8 @@
 
     <!-- Daily mixes and appearance -->
     <string name="daily_mix_title_rotation">مداحی‌های همیشگی</string>
-    <string name="daily_mix_title_rediscover">مرور دوبارهٔ نوحه‌ها</string>
-    <string name="daily_mix_title_discovery">نوحه‌های تازه</string>
+    <string name="daily_mix_title_rediscover">مرور دوبارهٔ مداحی‌ها</string>
+    <string name="daily_mix_title_discovery">مداحی‌های تازه</string>
     <string name="daily_mix_desc_rotation">مداحی‌های آشنا و محبوبت</string>
     <string name="daily_mix_desc_rediscover">مداحی‌هایی که دوباره ارزش شنیدن دارند</string>
     <string name="daily_mix_desc_discovery">مداحی‌های کمتر شنیده‌شدهٔ کتابخانه‌ات</string>
@@ -223,7 +223,7 @@
     <string name="home_shuffle_all_action">پخش تصادفی</string>
     <string name="home_session_minutes">%1$d دقیقه</string>
     <string name="home_session_unavailable">مداحی قابل‌پخشی برای ساخت این نوبت پیدا نشد</string>
-    <string name="home_recently_added">تازه‌های کتابخانه</string>
+    <string name="home_recently_added">مداحی‌های تازهٔ کتابخانه</string>
     <string name="daily_mix_play">پخش %1$s</string>
     <string name="settings_category_appearance">ظاهر و پوسته</string>
     <string name="settings_category_library">کتابخانه و اسکن مداحی‌ها</string>
@@ -353,12 +353,12 @@
     <string name="lyrics_manual_dialog_placeholder">متن مداحی را اینجا بنویسید…</string>
     <string name="lyrics_edit_action">ویرایش متن مداحی</string>
     <string name="save_lyrics">ذخیرهٔ متن مداحی</string>
-    <string name="home_mixes_title">میکس‌ها و حال‌وهوا</string>
+    <string name="home_mixes_title">گزیده‌ها و حال‌وهوای نجوا</string>
     <string name="mood_late_night_chill">آرامش شبانه</string>
     <string name="mood_deep_focus">تمرکز عمیق</string>
     <string name="mood_energy_boost">افزایش انرژی</string>
     <string name="mood_melancholy_rain">حال‌وهوای بارانی</string>
-    <string name="mood_acoustic_morning">صبح آکوستیک</string>
+    <string name="mood_acoustic_morning">صبح آرام</string>
     <string name="mood_empty">هنوز مداحی‌ای برای این گزیده در دسترس نیست. چند فایل به کتابخانه اضافه کنید و دوباره تلاش کنید.</string>
 
     <!-- Song menus and lyrics actions -->
@@ -412,7 +412,7 @@
     <string name="home_right_now_habit">مداحی‌هایی که در این ساعت بیشتر می‌شنوید</string>
     <string name="home_right_now_mood">شروعی ملایم تا نجوا سلیقهٔ شنیداری‌ات را بشناسد</string>
     <string name="home_right_now_play">پخش</string>
-    <string name="home_on_repeat">روی تکرار</string>
+    <string name="home_on_repeat">در حال تکرار</string>
     <string name="home_because_played">چون «%1$s» را گوش دادی</string>
     <string name="action_edit_track_info">ویرایش مشخصات مداحی</string>
     <string name="edit_track_title">ویرایش اطلاعات مداحی</string>
@@ -593,8 +593,8 @@
     <string name="home_download_card_title">دریافت مداحی</string>
     <string name="home_download_card_desc">جست‌وجو در منابع صوتی و ذخیرهٔ مداحی همراه با تصویر</string>
     <string name="home_download_card_action">دریافت مداحی</string>
-    <string name="home_ai_banner_title">لیست پخش جادویی با هوش مصنوعی</string>
-    <string name="home_ai_banner_desc">لیست پخش بساز یا میکس روزانه را با کلید API خودت بازسازی کن.</string>
+    <string name="home_ai_banner_title">گزینش هوشمند مداحی با هوش مصنوعی</string>
+    <string name="home_ai_banner_desc">فهرستی از مداحی‌ها بسازید یا گزیدهٔ روزانه را با کلید API خودتان تازه‌سازی کنید.</string>
     <string name="home_ai_banner_action">باز کردن هوش مصنوعی</string>
     <string name="settings_download_title">دریافت مداحی</string>
     <string name="cd_download_settings">تنظیمات دانلود</string>
