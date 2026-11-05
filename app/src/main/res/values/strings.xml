@@ -6,8 +6,8 @@
     <string name="nav_settings">Settings</string>
     <string name="home_title">Home</string>
     <string name="settings_title">Settings</string>
-    <string name="home_empty_message">Your musical journey begins here</string>
-    <string name="search_empty_message">Search tracks, artists, and albums</string>
+    <string name="home_empty_message">Your Najva maddahi collection begins here</string>
+    <string name="search_empty_message">Search maddahi, maddah, and collections</string>
     <string name="cd_home_icon">Home destination</string>
     <string name="cd_search_icon">Search destination</string>
     <string name="cd_library_icon">Library destination</string>
@@ -62,7 +62,7 @@
     <string name="btn_shuffle">Shuffle</string>
     <string name="album_track_count">%1$d recitations</string>
     <string name="artist_metadata">%1$d recitations • %2$d collections</string>
-    <string name="folder_track_count">%1$d songs</string>
+    <string name="folder_track_count">%1$d recitations</string>
     <string name="cd_back">Navigate back</string>
     <string name="empty_album_tracks">No recitations found in this collection</string>
     <string name="empty_artist_tracks">No recitations found by this maddah</string>
@@ -78,7 +78,7 @@
     <string name="tab_playlists">Playlists</string>
     <string name="queue_title">Playing Queue</string>
     <string name="queue_empty">Queue is empty</string>
-    <string name="queue_track_count">%1$d songs in queue</string>
+    <string name="queue_track_count">%1$d recitations in queue</string>
     <string name="queue_item_removed">Removed from queue</string>
     <string name="queue_undo">Undo</string>
     <string name="cd_drag_handle">Drag to reorder</string>
@@ -123,7 +123,7 @@
     <string name="btn_delete">Delete</string>
     <string name="btn_cancel">Cancel</string>
     <string name="empty_playlist_tracks">No songs in this playlist</string>
-    <string name="playlist_track_count">%1$d songs</string>
+    <string name="playlist_track_count">%1$d recitations</string>
     <string name="cd_favorite">Add to favorites</string>
     <string name="cd_unfavorite">Remove from favorites</string>
     <string name="cd_playlist_menu">Playlist options</string>
@@ -195,7 +195,7 @@
     <string name="sleep_timer_tab_minutes">Minutes</string>
     <string name="sleep_timer_tab_tracks">Tracks</string>
     <string name="sleep_timer_tracks_count">%1$d tracks</string>
-    <string name="sleep_timer_one_track">1 track (End of current song)</string>
+    <string name="sleep_timer_one_track">1 recitation (End of current recitation)</string>
     <string name="sleep_timer_tracks_remaining">%1$d tracks remaining</string>
     <string name="sleep_timer_start">Set Timer</string>
     <string name="sleep_timer_minutes_count">%1$d minutes</string>
@@ -213,20 +213,20 @@
     <string name="equalizer_band_db">%1$+d dB</string>
 
     <!-- Daily mixes and appearance -->
-    <string name="daily_mix_title_rotation">In your rotation</string>
-    <string name="daily_mix_title_rediscover">Time to revisit</string>
-    <string name="daily_mix_title_discovery">Off the beaten track</string>
-    <string name="daily_mix_desc_rotation">Familiar tracks and favorites</string>
-    <string name="daily_mix_desc_rediscover">Music worth hearing again</string>
-    <string name="daily_mix_desc_discovery">Less-played corners of your library</string>
-    <string name="home_daily_mixes">Daily Mixes</string>
+    <string name="daily_mix_title_rotation">Your familiar recitations</string>
+    <string name="daily_mix_title_rediscover">Rediscover recitations</string>
+    <string name="daily_mix_title_discovery">New recitations</string>
+    <string name="daily_mix_desc_rotation">Familiar and favorite maddahi</string>
+    <string name="daily_mix_desc_rediscover">Recitations worth hearing again</string>
+    <string name="daily_mix_desc_discovery">Less-played recitations in your library</string>
+    <string name="home_daily_mixes">Daily selections</string>
     <string name="home_shuffle_all_action">Shuffle all</string>
     <string name="home_session_minutes">%1$d min</string>
     <string name="home_session_unavailable">Couldn\'t build a session from playable tracks.</string>
     <string name="home_recently_added">Recently added</string>
     <string name="daily_mix_play">Play %1$s</string>
     <string name="settings_category_appearance">Appearance</string>
-    <string name="settings_category_library">Library &amp; Scanning</string>
+    <string name="settings_category_library">Maddahi Library & Scanning</string>
     <string name="settings_language_save_failed">Could not save the language preference. Please try again.</string>
     <string name="settings_language_title">App language</string>
     <string name="settings_language_system">Follow device language</string>
@@ -293,24 +293,24 @@
     <!-- Onboarding -->
     <string name="no_track_playing">Not Playing</string>
 
-    <string name="onboarding_welcome_title">Welcome to LogaRhythm</string>
-    <string name="onboarding_welcome_subtitle">A modern, offline music experience designed for your personal collection.</string>
+    <string name="onboarding_welcome_title">Welcome to Najva</string>
+    <string name="onboarding_welcome_subtitle">A modern, offline experience for keeping and listening to your maddahi collection.</string>
     <string name="onboarding_feature_offline_title">100% Offline &amp; Private</string>
-    <string name="onboarding_feature_offline_desc">Your music stays strictly on your device with zero tracking.</string>
+    <string name="onboarding_feature_offline_desc">Your recitations stay on your device with no tracking.</string>
     <string name="onboarding_feature_audio_title">High Quality &amp; Equalizer</string>
     <string name="onboarding_feature_audio_desc">Built-in 5-band equalizer, sleep timer, and speed controls.</string>
-    <string name="onboarding_feature_lyrics_title">Synced Lyrics &amp; Daily Mixes</string>
-    <string name="onboarding_feature_lyrics_desc">Enjoy scrolling .lrc lyrics and smart daily mixes tailored to your taste.</string>
-    <string name="onboarding_feature_clean_title">Clean Library by Default</string>
-    <string name="onboarding_feature_clean_desc">Clips under 60 seconds and messenger voice notes are filtered out automatically. You can customize this anytime in Settings.</string>
-    <string name="onboarding_permission_info">To get started, we need access to your local audio library and notifications for playback controls.</string>
+    <string name="onboarding_feature_lyrics_title">Synced Text & Daily Selections</string>
+    <string name="onboarding_feature_lyrics_desc">Enjoy synced recitation text and daily selections tailored to your collection.</string>
+    <string name="onboarding_feature_clean_title">Organized Maddahi Library</string>
+    <string name="onboarding_feature_clean_desc">Short audio files and voice messages are filtered automatically. You can change this in Settings.</string>
+    <string name="onboarding_permission_info">To get started, Najva needs access to audio files to scan your maddahi library and notifications for playback controls.</string>
     <string name="onboarding_btn_start">Get Started</string>
 
     <!-- Genres, sorting and player controls -->
     <string name="tab_genres">Genres</string>
     <string name="empty_genres">No genres found</string>
     <string name="empty_genre_tracks">No tracks found in this genre</string>
-    <string name="genre_track_count">%1$d songs</string>
+    <string name="genre_track_count">%1$d recitations</string>
     <string name="sort_by_title">Sort By</string>
     <string name="sort_title">Title</string>
     <string name="sort_artist">Maddah</string>
@@ -321,7 +321,7 @@
     <string name="sort_year">Year</string>
     <string name="sort_play_count">Play Count</string>
     <string name="sort_last_played">Last Played</string>
-    <string name="sort_track_count">Song Count</string>
+    <string name="sort_track_count">Recitation Count</string>
     <string name="sort_random">Random</string>
     <string name="sort_ascending">Ascending</string>
     <string name="sort_descending">Descending</string>
@@ -358,7 +358,7 @@
     <string name="mood_energy_boost">Energy boost</string>
     <string name="mood_melancholy_rain">Rainy-day mood</string>
     <string name="mood_acoustic_morning">Acoustic morning</string>
-    <string name="mood_empty">There aren’t any tracks available for this mix yet. Add music to your library and try again.</string>
+    <string name="mood_empty">There are no recitations for this selection yet. Add audio files to your library and try again.</string>
 
     <!-- Song menus and lyrics actions -->
     <string name="action_view_lyrics">View / Edit Lyrics</string>
@@ -394,8 +394,8 @@
     <string name="player_more_options">More options</string>
     <string name="player_menu_equalizer">Equalizer</string>
     <string name="player_menu_start_radio">Start radio from this song</string>
-    <string name="player_radio_started">Radio started with %1$d similar songs. Your previous queue was replaced.</string>
-    <string name="player_radio_empty">Not enough matching songs for a radio yet.</string>
+    <string name="player_radio_started">Autoplay started with %1$d similar recitations. Your previous queue was replaced.</string>
+    <string name="player_radio_empty">There are not enough similar recitations for autoplay yet.</string>
     <string name="search_no_results_hint">Try a shorter title, artist name, or album.</string>
     <string name="search_clear_query_action">Clear search</string>
     <string name="search_album_metadata">%1$s • %2$d songs</string>
@@ -452,7 +452,7 @@
     <string name="btn_save">Save</string>
     <string name="track_updated_toast">Song details updated</string>
     <string name="lyrics_search_custom_btn">Search by Name</string>
-    <string name="lyrics_custom_query_hint">Song title</string>
+    <string name="lyrics_custom_query_hint">Recitation title</string>
     <string name="lyrics_custom_artist_hint">Maddah name (optional)</string>
     <string name="lyrics_search_select">Apply</string>
     <string name="daily_mix_play_all">Play All</string>
@@ -476,7 +476,7 @@
     <string name="lyrics_source_imported">Imported file</string>
     <string name="lyrics_source_clipboard">Clipboard</string>
     <string name="lyrics_source_online">Online (%1$s)</string>
-    <string name="home_rescan">Scan for music</string>
+    <string name="home_rescan">Scan for maddahi</string>
 
     <!-- Player and home -->
     <string name="player_action_lyrics">Lyrics</string>
