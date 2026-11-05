@@ -13,7 +13,7 @@ import dagger.hilt.android.HiltAndroidApp
 import javax.inject.Inject
 
 @HiltAndroidApp
-class LogaRhythmApp : Application(), ImageLoaderFactory, Configuration.Provider {
+class NajvaApp : Application(), ImageLoaderFactory, Configuration.Provider {
 
     @Inject
     lateinit var workerFactory: HiltWorkerFactory
@@ -35,7 +35,7 @@ class LogaRhythmApp : Application(), ImageLoaderFactory, Configuration.Provider 
     override fun newImageLoader(): ImageLoader {
         return ImageLoader.Builder(this)
             .components {
-                add(AudioArtworkFetcher.Factory(this@LogaRhythmApp))
+                add(AudioArtworkFetcher.Factory(this@NajvaApp))
             }
             .memoryCache { MemoryCache.Builder(this).maxSizePercent(0.20).build() }
             .allowRgb565(false)

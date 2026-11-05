@@ -8,11 +8,8 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.core.graphics.ColorUtils
 
 /*
- * LogaRhythm's signature palette: "Ink & Ember".
- * Dark mode is warm ink with an ember-amber accent, like a stage lit from one side;
- * light mode is warm paper with burnt-amber type accents. Slate blue and sage supply the
- * secondary and tertiary voices so a single hue never carries the whole interface.
- * Every surface role is set explicitly so no tone leaks in from the Material baseline.
+ * Neutral fallback palette retained for custom color generation and compatibility.
+ * The user-facing Najva palettes are defined in najvaBrandColorScheme below.
  */
 
 val DarkColorScheme = darkColorScheme(
