@@ -27,7 +27,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.PlaylistAdd
 import androidx.compose.material.icons.automirrored.filled.PlaylistAddCheck
 import androidx.compose.material.icons.automirrored.filled.QueueMusic
-import androidx.compose.material.icons.filled.Album
+import androidx.compose.material.icons.filled.FolderCopy
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.DeleteOutline
 import androidx.compose.material.icons.filled.Edit
@@ -332,7 +332,7 @@ fun SongMenuBottomSheet(
             // Go to album
             if (onGoToAlbum != null && track.album.isNotBlank() && track.album != "Unknown Album") {
                 SongMenuOption(
-                    icon = Icons.Default.Album,
+                    icon = Icons.Default.FolderCopy,
                     title = stringResource(R.string.action_go_to_album),
                     tag = "menu_go_to_album",
                     onClick = { onGoToAlbum(); onDismissRequest() }
