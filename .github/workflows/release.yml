@@ -117,21 +117,21 @@ jobs:
             abi=${base#app-}
             abi=${abi%-unsigned}
             abi=${abi%-release}
-            cp "$apk" "LogaRhythm-$TAG-$abi.apk"
+            cp "$apk" "Najva-$TAG-$abi.apk"
           done
-          ls -1 LogaRhythm-*.apk
+          ls -1 Najva-*.apk
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: release-apk-${{ steps.versioning.outputs.TAG_NAME }}
-          path: LogaRhythm-*.apk
+          path: Najva-*.apk
 
       - name: Publish GitHub release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.versioning.outputs.TAG_NAME }}
-          files: LogaRhythm-*.apk
+          files: Najva-*.apk
           body_path: docs/telegram/${{ steps.versioning.outputs.TAG_NAME }}.md
           generate_release_notes: false
 
