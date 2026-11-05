@@ -143,8 +143,8 @@
     <string name="stats_empty_title">No listening data yet</string>
     <string name="stats_empty_desc">Play your favorite recitations to see listening statistics and rankings.</string>
     <string name="stats_play_count">%1$d plays</string>
-    <string name="home_recently_played">Recently Played</string>
-    <string name="home_browse_library">Browse Library</string>
+    <string name="home_recently_played">Recently played recitations</string>
+    <string name="home_browse_library">Browse maddahi library</string>
     <string name="home_stats_card_title">Your Maddahi Listening</string>
     <string name="home_stats_card_desc">You have listened to maddahi for %1$s</string>
     <string name="home_stats_card_action">View listening statistics</string>
@@ -223,7 +223,7 @@
     <string name="home_shuffle_all_action">Shuffle all</string>
     <string name="home_session_minutes">%1$d min</string>
     <string name="home_session_unavailable">Couldn’t build a session from playable recitations.</string>
-    <string name="home_recently_added">Recently added</string>
+    <string name="home_recently_added">New in your library</string>
     <string name="daily_mix_play">Play %1$s</string>
     <string name="settings_category_appearance">Appearance</string>
     <string name="settings_category_library">Maddahi Library & Scanning</string>
@@ -352,12 +352,12 @@
     <string name="lyrics_manual_dialog_placeholder">Type recitation text here…</string>
     <string name="lyrics_edit_action">Edit recitation text</string>
     <string name="save_lyrics">Save recitation text</string>
-    <string name="home_mixes_title">Mixes &amp; Moods</string>
+    <string name="home_mixes_title">Najva Selections & Moods</string>
     <string name="mood_late_night_chill">Late-night calm</string>
     <string name="mood_deep_focus">Deep focus</string>
     <string name="mood_energy_boost">Energy boost</string>
     <string name="mood_melancholy_rain">Rainy-day mood</string>
-    <string name="mood_acoustic_morning">Acoustic morning</string>
+    <string name="mood_acoustic_morning">Calm morning</string>
     <string name="mood_empty">There are no recitations for this selection yet. Add audio files to your library and try again.</string>
 
     <!-- Song menus and lyrics actions -->
@@ -592,8 +592,8 @@
     <string name="home_download_card_title">Get Maddahi</string>
     <string name="home_download_card_desc">Search audio sources and save recitations with artwork</string>
     <string name="home_download_card_action">Get Maddahi</string>
-    <string name="home_ai_banner_title">Magic playlist with AI</string>
-    <string name="home_ai_banner_desc">Build a playlist or rebuild a daily mix with your own API key.</string>
+    <string name="home_ai_banner_title">Smart recitation selection with AI</string>
+    <string name="home_ai_banner_desc">Build a recitation list or refresh your daily selection with your own API key.</string>
     <string name="home_ai_banner_action">Open AI</string>
     <string name="settings_download_title">Get Maddahi</string>
     <string name="cd_download_settings">Download settings</string>
