@@ -111,19 +111,19 @@ fun ThemeScreen(
             key = "default",
             nameRes = R.string.theme_preset_default,
             descriptionRes = R.string.theme_preset_default_desc,
-            colors = listOf(Color(0xFF35D39A), Color(0xFF050505))
+            colors = listOf(Color(0xFF35D39A), Color(0xFF073B2C))
         ),
         ThemePreset(
             key = "oled",
             nameRes = R.string.theme_preset_oled,
             descriptionRes = R.string.theme_preset_oled_desc,
-            colors = listOf(Color.Black, Color(0xFF35D39A))
+            colors = listOf(Color(0xFF052D22), Color(0xFF35D39A))
         ),
         ThemePreset(
             key = "album_art",
             nameRes = R.string.theme_preset_album_art,
             descriptionRes = R.string.theme_preset_album_art_desc,
-            colors = listOf(Color(0xFF35D39A), Color(0xFF087A52), Color(0xFF050505))
+            colors = listOf(Color(0xFF35D39A), Color(0xFF087B59), Color(0xFF073B2C))
         ),
         ThemePreset(
             key = "wallpaper",
