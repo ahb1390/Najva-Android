@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">LogaRhythm</string>
+    <string name="app_name">نجوا</string>
     <string name="nav_home">خانه</string>
     <string name="nav_search">جستجو</string>
     <string name="nav_library">کتابخانه</string>
@@ -238,9 +238,12 @@
     <string name="settings_theme_dark">تاریک</string>
     <string name="settings_theme_studio_title">استودیوی پوسته</string>
     <string name="theme_studio_title">استودیوی پوسته</string>
+    <string name="theme_brand_palette_title">تم‌های نجوا</string>
+    <string name="theme_brand_emerald">زمردی</string>
+    <string name="theme_brand_ashura">عاشورایی</string>
     <string name="theme_presets_title">پوسته‌های آماده</string>
-    <string name="theme_preset_default">جوهر و شراره</string>
-    <string name="theme_preset_default_desc">پالت گرم اصلی LogaRhythm</string>
+    <string name="theme_preset_default">پایه</string>
+    <string name="theme_preset_default_desc">استفاده از تم انتخاب‌شدهٔ نجوا</string>
     <string name="theme_preset_oled">مشکی OLED</string>
     <string name="theme_preset_oled_desc">سطوح کاملاً مشکی، مناسب نمایشگر OLED</string>
     <string name="theme_preset_album_art">کاور آهنگ</string>
@@ -263,8 +266,8 @@
     <string name="theme_hue">رنگ‌پایه (Hue)</string>
     <string name="theme_saturation">اشباع رنگ</string>
     <string name="theme_mode_title">روشن یا تاریک</string>
-    <string name="theme_mode_note">روی جوهر و شراره، کاور و پس‌زمینه اثر دارد. OLED و سفارشی از پایهٔ انتخاب‌شدهٔ بالا استفاده می‌کنند.</string>
-    <string name="theme_album_wallpaper_note">کاور آهنگ از کاور فعلی استفاده می‌کند و اگر آهنگی در حال پخش نباشد به جوهر و شراره برمی‌گردد. پس‌زمینه به اندروید ۱۲ یا بالاتر نیاز دارد.</string>
+    <string name="theme_mode_note">روی حالت پایه، کاور و پس‌زمینه اثر دارد. OLED و سفارشی از پایهٔ انتخاب‌شدهٔ بالا استفاده می‌کنند.</string>
+    <string name="theme_album_wallpaper_note">کاور آهنگ از کاور فعلی استفاده می‌کند و اگر آهنگی در حال پخش نباشد به تم انتخاب‌شدهٔ نجوا برمی‌گردد. پس‌زمینه به اندروید ۱۲ یا بالاتر نیاز دارد.</string>
     <string name="theme_preview_track">در حال پخش</string>
     <string name="theme_preview_album">پیش‌نمایش زندهٔ پوسته</string>
     <string name="theme_preview_chip_primary">اصلی</string>
