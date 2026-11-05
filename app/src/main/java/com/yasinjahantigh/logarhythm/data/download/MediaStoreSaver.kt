@@ -86,7 +86,7 @@ class MediaStoreSaver @Inject constructor(
         val uri = resolver.insert(collection, values)
             ?: throw DownloadPipelineException(
                 DownloadErrorKind.STORAGE,
-                "Could not create the music file."
+                "Could not create the audio file."
             )
 
         try {
@@ -94,7 +94,7 @@ class MediaStoreSaver @Inject constructor(
                 source.inputStream().use { it.copyTo(output) }
             } ?: throw DownloadPipelineException(
                 DownloadErrorKind.STORAGE,
-                "Could not open the new music file."
+                "Could not open the new audio file."
             )
             resolver.update(
                 uri,
@@ -131,7 +131,7 @@ class MediaStoreSaver @Inject constructor(
         if (!dir.exists() && !dir.mkdirs()) {
             throw DownloadPipelineException(
                 DownloadErrorKind.STORAGE,
-                "Could not create the music folder."
+                "Could not create the Najva folder."
             )
         }
 
@@ -237,7 +237,7 @@ class MediaStoreSaver @Inject constructor(
     }
 
     private fun buildDisplayName(title: String, artist: String, extension: String): String {
-        val cleanTitle = DownloadTitleParser.sanitizeFileName(title.ifBlank { "Track" })
+        val cleanTitle = DownloadTitleParser.sanitizeFileName(title.ifBlank { "Maddahi" })
         val cleanArtist = DownloadTitleParser.sanitizeFileName(artist)
         val base = if (cleanArtist.isBlank() || DownloadMetadataMerge.isPlaceholder(cleanArtist)) {
             cleanTitle
@@ -248,7 +248,7 @@ class MediaStoreSaver @Inject constructor(
     }
 
     private companion object {
-        const val FOLDER = "LogaRhythm"
+        const val FOLDER = "Najva"
         val MIME_TYPES = mapOf(
             "mp3" to "audio/mpeg",
             "m4a" to "audio/mp4",
