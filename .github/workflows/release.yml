@@ -106,6 +106,7 @@ jobs:
           for apk in app/build/outputs/apk/release/*.apk; do
             echo "Verifying $apk"
             "$BUILD_TOOLS_DIR/apksigner" verify --verbose "$apk"
+            unzip -t "$apk"
           done
 
       - name: Rename APKs
@@ -120,18 +121,25 @@ jobs:
             cp "$apk" "Najva-$TAG-$abi.apk"
           done
           ls -1 Najva-*.apk
+          sha256sum Najva-*.apk > SHA256SUMS.txt
+          cat SHA256SUMS.txt
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: release-apk-${{ steps.versioning.outputs.TAG_NAME }}
-          path: Najva-*.apk
+          path: |
+            Najva-*.apk
+            SHA256SUMS.txt
+          compression-level: 0
 
       - name: Publish GitHub release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.versioning.outputs.TAG_NAME }}
-          files: Najva-*.apk
+          files: |
+            Najva-*.apk
+            SHA256SUMS.txt
           body_path: docs/telegram/${{ steps.versioning.outputs.TAG_NAME }}.md
           generate_release_notes: false
 
