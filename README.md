@@ -8,7 +8,7 @@ A local music player for Android.<br>
 No account, no subscription, no ads. Your library stays on your phone.
 
 <a href="https://github.com/ahb1390/Najva-Android/releases/latest"><img alt="Download APK" src="https://img.shields.io/badge/Download-APK-2ea44f?logo=android&logoColor=white" /></a>
-<a href="https://github.com/ahb1390/Najva-Android/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Yasinjahantigh/LogaRhythm-Android/total?label=downloads&color=2ea44f" /></a>
+<a href="https://github.com/ahb1390/Najva-Android/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/ahb1390/Najva-Android/total?label=downloads&color=2ea44f" /></a>
 <img alt="Android 8.0+" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white" />
 <img alt="License: Apache 2.0" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" />
 
@@ -25,7 +25,7 @@ English · [فارسی](README.fa.md)
 
 ## About
 
-Najva plays the music that is already on your phone. Playlists, history, edited tags and lyrics are stored on the device, and your files never leave it. The features that use the network are the ones you start yourself — online lyrics, music download and the optional AI playlist — plus two small background calls: a daily check for a newer release on GitHub, and, only when the maintainer configures an install-counter endpoint, one anonymous install record on the first launch. App updates never send that record again. Neither call includes an account, file names, library data or an advertising id. GitHub also counts APK downloads the same way it counts any other file.
+Najva plays the music that is already on your phone. Playlists, history, edited tags and lyrics are stored on the device, and your files never leave it. The features that use the network are the ones you start yourself — online lyrics, music download and the optional AI playlist — plus a daily check for a newer release on GitHub and, optionally, one anonymous install record on first launch when the maintainer configures an install-counter endpoint. App updates never send that record again. Neither call includes an account, file names, library data or an advertising id. GitHub also counts APK downloads the same way it counts any other file.
 
 ## Features
 
@@ -90,7 +90,7 @@ Najva plays the music that is already on your phone. Playlists, history, edited 
 
 ```bash
 git clone https://github.com/ahb1390/Najva-Android.git
-cd LogaRhythm-Android
+cd Najva-Android
 ./gradlew :app:assembleDebug
 ```
 
