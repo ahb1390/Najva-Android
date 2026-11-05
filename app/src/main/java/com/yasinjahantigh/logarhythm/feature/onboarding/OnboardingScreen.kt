@@ -137,7 +137,7 @@ fun OnboardingScreen(
                 Spacer(modifier = Modifier.height(16.dp))
 
                 OnboardingFeatureItem(
-                    icon = Icons.Default.MusicNote,
+                    icon = Icons.Default.Mic,
                     title = stringResource(R.string.onboarding_feature_clean_title),
                     description = stringResource(R.string.onboarding_feature_clean_desc)
                 )
